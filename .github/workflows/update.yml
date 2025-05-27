@@ -1,0 +1,27 @@
+name: Update Windows Versions
+
+on:
+  schedule:
+    - cron: '0 6 * * 3'  # Every Wednesday at 6 AM UTC
+  workflow_dispatch:     # Manual run button
+
+jobs:
+  update-json:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run PowerShell to update JSON
+        shell: pwsh
+        run: |
+          ./update-json.ps1
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add windows-versions.json
+          git diff --cached --quiet || git commit -m "Auto-update windows-versions.json"
+          git push

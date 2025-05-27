@@ -1,16 +1,30 @@
 [
   {
-    "os": "Windows Server 2022",
-    "version": "21H2",
-    "build": "20348.2461",
-    "latestKB": "KB5039302",
-    "releaseDate": "2025-05-15"
+    "os": "Windows Server 2025",
+    "version": "LTSC",
+    "build": "26100.4061",
+    "latestKB": "KB5058411",
+    "releaseDate": "2025-05-13"
   },
   {
-    "os": "Windows 11 23H2",
-    "version": "23H2",
-    "build": "22631.3593",
-    "latestKB": "KB5039303",
-    "releaseDate": "2025-05-14"
+    "os": "Windows Server 2022",
+    "version": "LTSC",
+    "build": "20348.3695",
+    "latestKB": "KB5061906",
+    "releaseDate": "2025-05-23"
+  },
+  {
+    "os": "Windows Server 2019",
+    "version": "1809",
+    "build": "17763.7314",
+    "latestKB": "KB5058392",
+    "releaseDate": "2025-05-13"
+  },
+  {
+    "os": "Windows Server 2016",
+    "version": "1607",
+    "build": "14393.8066",
+    "latestKB": "KB5058383",
+    "releaseDate": "2025-05-13"
   }
 ]

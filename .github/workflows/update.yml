@@ -1,27 +1,40 @@
-name: Update Windows Versions
+name: Update Windows Versions and CVE Mappings
 
 on:
   schedule:
-    - cron: '0 6 * * 3'  # Every Wednesday at 6 AM UTC
-  workflow_dispatch:     # Manual run button
+    - cron: '0 0 15 * *' # Run at midnight UTC on the 15th of each month
+  push:
+    branches:
+      - main
+    paths:
+      - 'generate_os_cve_data.ps1'
+      - 'kb_cve_data.csv' # Adjust if your data source has a different name
+  workflow_dispatch: # Allow manual triggering
 
 jobs:
   update-json:
-    runs-on: windows-latest
+    runs-on: windows-latest # Use Windows runner for PowerShell compatibility
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Run PowerShell to update JSON
-        shell: pwsh
-        run: |
-          ./update-json.ps1
+    - name: Set up PowerShell
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # Optional, if your script uses .NET dependencies
 
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add windows-versions.json
-          git diff --cached --quiet || git commit -m "Auto-update windows-versions.json"
-          git push
+    - name: Run PowerShell script
+      shell: pwsh
+      run: |
+        ./generate_os_cve_data.ps1
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add windows-versions.json CVE_KB_Mapping_*.json Server_KB_CVE_Map_*.csv
+        git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and Server_KB_CVE_Map for $((Get-Date -Format 'yyyy-MMMM'))"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

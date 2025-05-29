@@ -34,7 +34,7 @@ jobs:
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git add windows-versions.json CVE_KB_Mapping_*.json kb_cve_data.csv
-        git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and Server_KB_CVE_Map for $((Get-Date -Format 'yyyy-MMMM'))"
+        git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and kb_cve_data for $((Get-Date -Format 'yyyy-MMMM'))"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

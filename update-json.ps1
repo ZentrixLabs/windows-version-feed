@@ -1,51 +1,54 @@
-# update-json.ps1
-
 $uri = "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
 $response = Invoke-WebRequest -Uri $uri
 $html = $response.ParsedHtml
 
 $rows = $html.getElementsByTagName("tr")
 
-# Store the latest valid update per OS
-$latestUpdates = @{}
+$allUpdates = @()
 
 foreach ($row in $rows) {
     $cells = $row.getElementsByTagName("td")
-    if ($cells.Count -ge 5) {
-        $os = $cells.Item(0).innerText.trim()
-        $build = $cells.Item(1).innerText.trim()
-        $dateText = $cells.Item(2).innerText.trim()
-        $kb = $cells.Item(3).innerText.trim()
-        $description = $cells.Item(4).innerText.trim()
+    if ($cells.Count -ge 6) {
+        $os = $cells.Item(0).innerText.Trim()
+        $servicing = $cells.Item(1).innerText.Trim()
+        $dateText = $cells.Item(2).innerText.Trim()
+        $fullBuild = $cells.Item(3).innerText.Trim()
+        $kb = $cells.Item(4).innerText.Trim()
+        $description = $cells.Item(5).innerText.Trim()
 
-        # Only include regular Cumulative or Security updates
         if (
             $os -match "Windows Server (20(16|19|22|25))" -and
             $description -match "Cumulative Update" -and
             $description -notmatch "Preview|Out-of-band|OOB|Optional"
         ) {
             $date = [datetime]::Parse($dateText)
+            $majorBuild = $fullBuild.Split(".")[0]  # e.g., 20348
 
-            if (-not $latestUpdates.ContainsKey($os) -or $date -gt $latestUpdates[$os].releaseDate) {
-                $latestUpdates[$os] = [PSCustomObject]@{
-                    os          = $os
-                    version     = "LTSC"
-                    build       = $build
-                    latestKB    = $kb
-                    releaseDate = $date
-                }
+            $allUpdates += [PSCustomObject]@{
+                os          = $os
+                build       = $majorBuild
+                fullBuild   = $fullBuild
+                kb          = $kb
+                releaseDate = $date
             }
         }
     }
 }
 
-# Convert to sorted list by OS name
-$data = $latestUpdates.Values | Sort-Object os
+# Pick latest update per OS+build combo
+$latestUpdates = $allUpdates |
+    Group-Object os, build |
+    ForEach-Object {
+        $_.Group | Sort-Object releaseDate -Descending | Select-Object -First 1
+    } |
+    Sort-Object os
 
-# Format date and export
-$data | ForEach-Object {
+# Add version and format date
+$latestUpdates | ForEach-Object {
+    $_ | Add-Member -NotePropertyName version -NotePropertyValue "LTSC"
     $_.releaseDate = $_.releaseDate.ToString("yyyy-MM-dd")
 }
 
-$json = $data | ConvertTo-Json -Depth 3
-Set-Content -Path "windows-versions.json" -Value $json
+# Save JSON
+$json = $latestUpdates | ConvertTo-Json -Depth 3 -Compress:$false
+Set-Content -Path "windows-versions.json" -Value $json -Encoding UTF8

@@ -178,7 +178,7 @@ if ($kbCveMap) {
     # Display all mappings
     $kbCveMap | Sort-Object CVE, KB, ProductName | Format-Table -AutoSize
     # Export to CSV
-    $kbCveMap | Export-Csv -Path "Server_KB_CVE_Map_$month.csv" -NoTypeInformation
+    $kbCveMap | Export-Csv -Path "kb_cve_data.csv" -NoTypeInformation
 
     # Highlight high-risk CVEs
     $highRisk = $kbCveMap | Where-Object { $_.ExploitStatus -match "Exploitation Detected|Exploitation More Likely" } | Sort-Object CVE, ProductName -Unique

@@ -161,23 +161,6 @@ if ($kbCveMap) {
     # Display all mappings
     $kbCveMap | Sort-Object CVE, KB, ProductName | Format-Table -AutoSize
     # Export to CSV
-    $kbCveMap | Export-Csv -Path "Server_KB_CVE_Map_$month.csv" -NoTypeInformation
-
-    # Highlight high-risk CVEs
-    $highRisk = $kbCveMap | Where-Object { $_.ExploitStatus -match "Exploitation Detected|Exploitation More Likely" } | Sort-Object CVE, ProductName -Unique
-    if ($highRisk) {
-        Write-Output "High-Risk CVEs (Exploitation Detected or More Likely):"
-        $highRisk | Format-Table CVE, KB, ProductName, Severity, ExploitStatus -AutoSize
-    }
-} else {
-    Write-Warning "No KB-to-CVE mappings found for specified Windows Server versions."
-}
-
-# Output results
-if ($kbCveMap) {
-    # Display all mappings
-    $kbCveMap | Sort-Object CVE, KB, ProductName | Format-Table -AutoSize
-    # Export to CSV
     $kbCveMap | Export-Csv -Path "kb_cve_data.csv" -NoTypeInformation
 
     # Highlight high-risk CVEs
@@ -223,7 +206,7 @@ Write-Output "`nDerived OS Dataset:"
 $osData | Format-Table os, version, build, latestKB, releaseDate -AutoSize
 
 # Export OS dataset to JSON
-$osData | ConvertTo-Json | Out-File -FilePath "OS_Dataset_$month.json" -Encoding UTF8
+$osData | ConvertTo-Json | Out-File -FilePath "windows-versions.json" -Encoding UTF8
 
 # Add this after the existing $osData export in the script
 

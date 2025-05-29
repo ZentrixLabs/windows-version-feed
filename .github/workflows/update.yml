@@ -33,6 +33,7 @@ jobs:
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/ZentrixLabs/windows-version-feed.git
         git add windows-versions.json CVE_KB_Mapping_*.json kb_cve_data.csv
         git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and kb_cve_data for $((Get-Date -Format 'yyyy-MMMM'))"
         git push

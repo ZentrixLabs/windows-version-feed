@@ -1,63 +1,57 @@
+# Windows Versions and CVE Data Extraction Script
+# Author: Patch Validation
+
 # Get current date and format for CVRF ID (e.g., 2025-May)
 $date = Get-Date -Format "yyyy-MM-dd"
 $monthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName((Get-Date).Month)
-$month = "$($date.Substring(0,4))-$monthAbbr"  # e.g., 2025-May
+$month = "$($date.Substring(0,4))-$monthAbbr"
 
-
-# Grab latest update for May 2025
+# Fetch CVRF data
 $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
 $doc = $cvrf.cvrfdoc
 
-# Define server versions for filtering
-$serverVersions = @(
-    "*Windows Server 2016*",
-    "*Windows Server 2019*",
-    "*Windows Server 2022*",
-    "*Windows Server 2025*"
-)
-
-# Hardcode version mappings (since not in $kbCveMap)
-$versionMap = @{
-    "Windows Server 2025" = "LTSC"
-    "Windows Server 2022" = "LTSC"
-    "Windows Server 2019" = "1809"
-    "Windows Server 2016" = "1607"
-}
-
-# Build $serverProducts dynamically
-$serverProducts = $doc.ProductTree.FullProductName | Where-Object {
-    $productName = $_.'#text'
-    $serverVersions | ForEach-Object { if ($productName -like $_) { $true } }
+# Build dynamic OS list
+$osProducts = $doc.ProductTree.FullProductName | Where-Object {
+    $_.'#text' -match 'Windows Server|Windows 10|Windows 11'
 } | Select-Object ProductID, @{Name='ProductName';Expression={$_.'#text'}}
 
-if (-not $serverProducts) {
-    Write-Warning "No server products found for specified versions."
+if (-not $osProducts) {
+    Write-Warning "No OS products found."
     exit
 }
-# Extract product IDs for filtering
-$serverProductIds = $serverProducts.ProductID
 
-# Initialize KB-to-CVE mapping
+# Version mapping
+$versionMap = @{}
+foreach ($product in $osProducts) {
+    $name = $product.ProductName
+    if ($name -match 'Windows Server (\\d{4})') {
+        $versionMap[$name] = $matches[1]
+    } elseif ($name -match 'Windows 10 Version ([\\dA-Z]+)') {
+        $versionMap[$name] = $matches[1]
+    } elseif ($name -match 'Windows 11 Version ([\\dA-Z]+)') {
+        $versionMap[$name] = $matches[1]
+    } elseif ($name -match 'Windows Server 2022') {
+        $versionMap[$name] = 'LTSC'
+    } else {
+        $versionMap[$name] = 'Unknown'
+    }
+}
+
+$osProductIds = $osProducts.ProductID
 $kbCveMap = @()
-
-# Track unique entries to avoid duplicates
 $uniqueEntries = @{}
 
-# Iterate through vulnerabilities
 foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
     $cve = $vuln.CVE
     $baseScore = ($vuln.CVSSScoreSets.ScoreSet | Select-Object -First 1).BaseScore
-    $exploitStatus = ($vuln.Threats.Threat | Where-Object { $_.Type -eq "Exploit Status" }).Description
+    $exploitStatus = ($vuln.Threats.Threat | Where-Object { $_.Type -eq 'Exploit Status' }).Description
 
-    # Get affected product IDs
-    $affectedProductIds = $vuln.ProductStatuses.Status | Where-Object { $_.Type -eq "Known Affected" } | Select-Object -ExpandProperty ProductID
+    $affectedProductIds = $vuln.ProductStatuses.Status | Where-Object { $_.Type -eq 'Known Affected' } | Select-Object -ExpandProperty ProductID
+    $matchingProductIds = $affectedProductIds | Where-Object { $_ -in $osProductIds }
 
-    # Check if any affected product IDs match server products
-    $matchingProductIds = $affectedProductIds | Where-Object { $_ -in $serverProductIds }
     if ($matchingProductIds) {
-        # Get remediations
         $remediations = $vuln.Remediations.Remediation | Where-Object {
-            $_.Type -eq "Vendor Fix" -and ($_.SubType -in @("Security Update", "Security HotPatch Update", "Release Notes"))
+            $_.Type -eq 'Vendor Fix' -and ($_.SubType -in @('Security Update', 'Security HotPatch Update', 'Release Notes'))
         }
 
         foreach ($rem in $remediations) {
@@ -65,13 +59,11 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
             $fixedBuild = $rem.FixedBuild
             $remProductIds = $rem.ProductID
 
-            # Only include remediations for server products
             foreach ($remProductId in $remProductIds) {
-                if ($remProductId -in $serverProductIds) {
-                    $product = $serverProducts | Where-Object { $_.ProductID -eq $remProductId }
-                    $entryKey = "$cve-$kb-$remProductId"
+                if ($remProductId -in $osProductIds) {
+                    $product = $osProducts | Where-Object { $_.ProductID -eq $remProductId }
+                    $entryKey = \"$cve-$kb-$remProductId\"
 
-                    # Avoid duplicates
                     if (-not $uniqueEntries.ContainsKey($entryKey)) {
                         $uniqueEntries[$entryKey] = $true
                         $kbCveMap += [PSCustomObject]@{
@@ -82,7 +74,7 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
                             FixedBuild    = $fixedBuild
                             Severity      = $baseScore
                             ExploitStatus = $exploitStatus
-                            PublishedDate = $vuln.RevisionHistory.Revision | Where-Object { $_.Number -eq "1.0" } | Select-Object -ExpandProperty Date
+                            PublishedDate = ($vuln.RevisionHistory.Revision | Where-Object { $_.Number -eq '1.0' }).Date
                         }
                     }
                 }
@@ -91,147 +83,64 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
     }
 }
 
-# Build OS dataset from $kbCveMap
+# Build OS dataset dynamically
 $osData = @()
-$osGroups = $kbCveMap | Where-Object { $_.KB -ne "Release Notes" } | Group-Object -Property { 
-    # Simplify ProductName to base OS
-    if ($_.ProductName -like "*Windows Server 2016*") { "Windows Server 2016" }
-    elseif ($_.ProductName -like "*Windows Server 2019*") { "Windows Server 2019" }
-    elseif ($_.ProductName -like "*Windows Server 2022, 23H2*") { "Windows Server 2022 23H2" }  # Handle 23H2 separately
-    elseif ($_.ProductName -like "*Windows Server 2022*") { "Windows Server 2022" }
-    elseif ($_.ProductName -like "*Windows Server 2025*") { "Windows Server 2025" }
-    else { $_.ProductName }
+$osGroups = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Group-Object -Property {
+    $name = $_.ProductName
+    if ($name -like '*Windows Server 2022, 23H2*') { 'Windows Server 2022 23H2' }
+    elseif ($name -like '*Windows Server 2022*') { 'Windows Server 2022' }
+    elseif ($name -like '*Windows Server 2016*') { 'Windows Server 2016' }
+    elseif ($name -like '*Windows Server 2019*') { 'Windows Server 2019' }
+    elseif ($name -like '*Windows Server 2025*') { 'Windows Server 2025' }
+    elseif ($name -like '*Windows 10*') {
+        if ($name -match 'Windows 10 Version ([\\dA-Z]+)') { \"Windows 10 Version $($matches[1])\" } else { 'Windows 10' }
+    }
+    elseif ($name -like '*Windows 11*') {
+        if ($name -match 'Windows 11 Version ([\\dA-Z]+)') { \"Windows 11 Version $($matches[1])\" } else { 'Windows 11' }
+    } else { $name }
 }
 
 foreach ($group in $osGroups) {
     $osName = $group.Name
-    # Skip HLK products
-    if ($osName -like "*HLK*") { continue }
+    if ($osName -like '*HLK*') { continue }
 
-    # Find the KB with the highest build number (excluding 23H2 for Server 2022 unless it's the target)
     $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
-    if ($osName -eq "Windows Server 2022") {
-        # Prefer non-23H2 entries for Server 2022 (e.g., KB5058385 over KB5058384)
-        $non23H2 = $group.Group | Where-Object { $_.ProductName -notlike "*23H2*" } | Sort-Object FixedBuild -Descending | Select-Object -First 1
+    if ($osName -eq 'Windows Server 2022') {
+        $non23H2 = $group.Group | Where-Object { $_.ProductName -notlike '*23H2*' } | Sort-Object FixedBuild -Descending | Select-Object -First 1
         if ($non23H2) { $latestEntry = $non23H2 }
     }
 
     $osData += [PSCustomObject]@{
         os          = $osName
-        version     = $versionMap[$osName] ? $versionMap[$osName] : "Unknown"
-        build       = $latestEntry.FixedBuild
-        latestKB    = $latestEntry.KB
-        releaseDate = $latestEntry.PublishedDate
+        version     = $versionMap[$latestEntry.ProductName] ? $versionMap[$latestEntry.ProductName] : 'Unknown'
+        build       = $latestEntry.FixedBuild -replace '^10\\.0\\.', ''
+        latestKB    = \"KB$($latestEntry.KB)\"
+        releaseDate = ($latestEntry.PublishedDate -replace 'T.*', '')
     }
 }
 
-# Build OS dataset from $kbCveMap
-$osData = @()
+# Export OS dataset
+$osData | ConvertTo-Json | Out-File -FilePath 'windows-versions.json' -Encoding UTF8
 
-# Get unique OS names, excluding HLK products and Server 2022 23H2
-$osNames = $kbCveMap | Where-Object { $_.KB -ne "Release Notes" } | ForEach-Object {
-    # Simplify ProductName to base OS
-    if ($_.ProductName -like "*Windows Server 2016*") { "Windows Server 2016" }
-    elseif ($_.ProductName -like "*Windows Server 2019*") { "Windows Server 2019" }
-    elseif ($_.ProductName -like "*Windows Server 2022, 23H2*") { "Windows Server 2022 23H2" }
-    elseif ($_.ProductName -like "*Windows Server 2022*") { "Windows Server 2022" }
-    elseif ($_.ProductName -like "*Windows Server 2025*") { "Windows Server 2025" }
-} | Sort-Object -Unique | Where-Object { $_ -notlike "*HLK*" -and $_ -ne "Windows Server 2022 23H2" }
-
-foreach ($osName in $osNames) {
-    # Find the KB with the highest build number for this OS, excluding 23H2 for Server 2022
-    $latestEntry = $kbCveMap | Where-Object { 
-        ($_.ProductName -like "*$osName*" -and $_.KB -ne "Release Notes") -and 
-        ($osName -ne "Windows Server 2022" -or $_.ProductName -notlike "*23H2*")
-    } | Sort-Object FixedBuild -Descending | Select-Object -First 1
-
-    if ($latestEntry) {
-        $osData += [PSCustomObject]@{
-            os          = $osName
-            version     = $versionMap[$osName] ? $versionMap[$osName] : "Unknown"
-            build       = $latestEntry.FixedBuild -replace "^10\.0\.", ""
-            latestKB    = "KB$($latestEntry.KB)"
-            releaseDate = ($latestEntry.PublishedDate -replace "T.*", "")
-        }
-    }
-}
-
-# Output results
-if ($kbCveMap) {
-    # Display all mappings
-    $kbCveMap | Sort-Object CVE, KB, ProductName | Format-Table -AutoSize
-    # Export to CSV
-    $kbCveMap | Export-Csv -Path "kb_cve_data.csv" -NoTypeInformation
-
-    # Highlight high-risk CVEs
-    $highRisk = $kbCveMap | Where-Object { $_.ExploitStatus -match "Exploitation Detected|Exploitation More Likely" } | Sort-Object CVE, ProductName -Unique
-    if ($highRisk) {
-        Write-Output "High-Risk CVEs (Exploitation Detected or More Likely):"
-        $highRisk | Format-Table CVE, KB, ProductName, Severity, ExploitStatus -AutoSize
-    }
-} else {
-    Write-Warning "No KB-to-CVE mappings found for specified Windows Server versions."
-}
-
-# Summarize unique KBs and their associated OS with latest KB status
-Write-Output "Unique KBs and Associated OS:"
-$uniqueKBs = $kbCveMap.KB | Sort-Object -Unique
-foreach ($kb in $uniqueKBs) {
-    $osList = $kbCveMap | Where-Object { $_.KB -eq $kb } | Select-Object -ExpandProperty ProductName -Unique | Sort-Object
-    $kbStatus = ""
-    $expectedBuild = ""
-
-    # Check if KB is latest for any OS in the derived dataset
-    $matchingOs = $osData | Where-Object { $_.latestKB -eq "KB$kb" }
-    if ($matchingOs) {
-        $osNames = $matchingOs.os -join ", "
-        $builds = $matchingOs.build -join ", "
-        $kbStatus = " (Latest for $osNames)"
-        $expectedBuild = " (Expected Build: $builds)"
-    } elseif ($kb -eq "Release Notes") {
-        $kbStatus = " (Non-standard update for HLK products)"
-    } else {
-        $kbStatus = " (Not latest for any OS)"
-    }
-
-    Write-Output "$kb`: $($osList -join ', ')$kbStatus$expectedBuild"
-}
-
-# Summarize unique CVEs
-$uniqueCVEs = $kbCveMap.CVE | Sort-Object -Unique
-Write-Output "Unique CVEs: $($uniqueCVEs -join ', ')"
-
-# Output derived OS dataset for reference
-Write-Output "`nDerived OS Dataset:"
-$osData | Format-Table os, version, build, latestKB, releaseDate -AutoSize
-
-# Export OS dataset to JSON
-$osData | ConvertTo-Json | Out-File -FilePath "windows-versions.json" -Encoding UTF8
-
-# Add this after the existing $osData export in the script
-
-# Build CVE-to-KB mapping dataset
+# Build CVE-to-KB mapping
 $cveData = @()
-
-# Get unique CVEs, excluding HLK products
-$uniqueCVEs = $kbCveMap | Where-Object { $_.KB -ne "Release Notes" } | Select-Object -ExpandProperty CVE -Unique
+$uniqueCVEs = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Select-Object -ExpandProperty CVE -Unique
 
 foreach ($cve in $uniqueCVEs) {
-    # Get all entries for this CVE, excluding HLK and Server 2022 23H2
-    $cveEntries = $kbCveMap | Where-Object { 
-        $_.CVE -eq $cve -and 
-        $_.KB -ne "Release Notes" -and 
-        $_.ProductName -notlike "*Windows Server 2022, 23H2*"
-    }
-
-    # Group by simplified OS name
+    $cveEntries = $kbCveMap | Where-Object { $_.CVE -eq $cve -and $_.KB -ne 'Release Notes' }
     $osGroups = $cveEntries | ForEach-Object {
         $osName = switch -Wildcard ($_.ProductName) {
-            "*Windows Server 2016*" { "Windows Server 2016" }
-            "*Windows Server 2019*" { "Windows Server 2019" }
-            "*Windows Server 2022*" { "Windows Server 2022" }
-            "*Windows Server 2025*" { "Windows Server 2025" }
-            default { $null }
+            '*Windows Server 2016*' { 'Windows Server 2016' }
+            '*Windows Server 2019*' { 'Windows Server 2019' }
+            '*Windows Server 2022*' { 'Windows Server 2022' }
+            '*Windows Server 2025*' { 'Windows Server 2025' }
+            '*Windows 10*' {
+                if ($_.ProductName -match 'Windows 10 Version ([\\dA-Z]+)') { \"Windows 10 Version $($matches[1])\" } else { 'Windows 10' }
+            }
+            '*Windows 11*' {
+                if ($_.ProductName -match 'Windows 11 Version ([\\dA-Z]+)') { \"Windows 11 Version $($matches[1])\" } else { 'Windows 11' }
+            }
+            default { $_.ProductName }
         }
         if ($osName) {
             [PSCustomObject]@{
@@ -244,47 +153,20 @@ foreach ($cve in $uniqueCVEs) {
         }
     } | Where-Object { $_.OS } | Group-Object -Property OS
 
-    $cveMapping = [PSCustomObject]@{
-        cve = $cve
-        patches = @()
-    }
-
+    $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
     foreach ($group in $osGroups) {
-        $osName = $group.Name
-        # Select the entry with the latest KB for this OS
         $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
-
-        # Map to latest KB for the OS
-        $latestKB = switch ($osName) {
-            "Windows Server 2016" { "5058383" }
-            "Windows Server 2019" { "5058392" }
-            "Windows Server 2022" { "5058385" }
-            "Windows Server 2025" { "5058411" }
-        }
-
-        # Only include if the KB matches the latest for the OS
-        if ($latestEntry.KB -eq $latestKB) {
-            $cveMapping.patches += [PSCustomObject]@{
-                os = $osName
-                kb = "KB$($latestEntry.KB)"
-                fixedBuild = $latestEntry.FixedBuild -replace "^10\.0\.", ""
-                severity = $latestEntry.Severity
-                exploitStatus = $latestEntry.ExploitStatus
-            }
+        $cveMapping.patches += [PSCustomObject]@{
+            os = $group.Name
+            kb = \"KB$($latestEntry.KB)\"
+            fixedBuild = $latestEntry.FixedBuild -replace '^10\\.0\\.', ''
+            severity = $latestEntry.Severity
+            exploitStatus = $latestEntry.ExploitStatus
         }
     }
 
-    if ($cveMapping.patches.Count -gt 0) {
-        $cveData += $cveMapping
-    }
+    if ($cveMapping.patches.Count -gt 0) { $cveData += $cveMapping }
 }
 
-# Output CVE-to-KB mapping for reference
-Write-Output "`nCVE-to-KB Mapping Dataset:"
-$cveData | ForEach-Object {
-    Write-Output "CVE: $($_.cve)"
-    $_.patches | Format-Table os, kb, fixedBuild, severity, exploitStatus -AutoSize
-}
-
-# Export CVE-to-KB mapping to JSON
-$cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath "CVE_KB_Mapping_$month.json" -Encoding UTF8
+# Export CVE-KB mapping
+$cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath \"CVE_KB_Mapping_$month.json\" -Encoding UTF8

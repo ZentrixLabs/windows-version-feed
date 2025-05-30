@@ -25,6 +25,8 @@ catch {
     }
 }
 
+$doc = $cvrf.cvrfdoc
+
 # Build dynamic OS list
 $osProducts = $doc.ProductTree.FullProductName | Where-Object {
     $_.'#text' -match 'Windows Server|Windows 10|Windows 11'

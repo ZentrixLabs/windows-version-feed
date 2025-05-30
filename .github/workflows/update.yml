@@ -21,8 +21,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        persist-credentials: true  # default is true, but explicit is better
 
     - name: Set up PowerShell
       uses: actions/setup-dotnet@v4

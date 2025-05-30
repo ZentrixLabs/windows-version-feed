@@ -1,16 +1,9 @@
 [
   {
-    "os": "Windows Server 2025",
-    "version": "LTSC",
-    "build": "26100.4061",
-    "latestKB": "KB5058411",
-    "releaseDate": "2025-05-13"
-  },
-  {
-    "os": "Windows Server 2022",
-    "version": "LTSC",
-    "build": "20348.3692",
-    "latestKB": "KB5058385",
+    "os": "Windows Server 2016",
+    "version": "1607",
+    "build": "14393.8066",
+    "latestKB": "KB5058383",
     "releaseDate": "2025-05-13"
   },
   {
@@ -21,10 +14,17 @@
     "releaseDate": "2025-05-13"
   },
   {
-    "os": "Windows Server 2016",
-    "version": "1607",
-    "build": "14393.8066",
-    "latestKB": "KB5058383",
+    "os": "Windows Server 2022",
+    "version": "LTSC",
+    "build": "20348.3692",
+    "latestKB": "KB5058385",
+    "releaseDate": "2025-05-13"
+  },
+  {
+    "os": "Windows Server 2025",
+    "version": "LTSC",
+    "build": "26100.4061",
+    "latestKB": "KB5058411",
     "releaseDate": "2025-05-13"
   }
 ]

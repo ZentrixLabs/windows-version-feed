@@ -4,6 +4,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -11,6 +12,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -18,6 +20,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -25,6 +28,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -32,6 +36,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -39,6 +44,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -51,6 +57,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -58,6 +65,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -65,6 +73,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -72,6 +81,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -79,6 +89,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -86,6 +97,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -98,6 +110,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "8.8",
@@ -105,6 +118,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -112,6 +126,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "8.8",
@@ -119,6 +134,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "8.8",
@@ -126,6 +142,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -138,6 +155,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "8.8",
@@ -145,6 +163,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -152,6 +171,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "8.8",
@@ -159,6 +179,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "8.8",
@@ -166,6 +187,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "8.8",
@@ -173,6 +195,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -185,6 +208,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "8.8",
@@ -192,6 +216,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -199,6 +224,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "8.8",
@@ -206,6 +232,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "8.8",
@@ -213,6 +240,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "8.8",
@@ -220,6 +248,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -232,6 +261,7 @@
     "patches": [
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -239,6 +269,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -246,6 +277,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -258,6 +290,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.5",
@@ -265,6 +298,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -272,6 +306,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.5",
@@ -279,6 +314,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.5",
@@ -286,6 +322,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.5",
@@ -293,6 +330,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -305,6 +343,7 @@
     "patches": [
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -312,6 +351,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -319,6 +359,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -331,6 +372,7 @@
     "patches": [
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -343,6 +385,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.0",
@@ -350,6 +393,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.0",
@@ -357,6 +401,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.0",
@@ -364,6 +409,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.0",
@@ -371,6 +417,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.0",
@@ -378,6 +425,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.0",
@@ -390,6 +438,7 @@
     "patches": [
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "5.9",
@@ -397,6 +446,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "5.9",
@@ -404,6 +454,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "5.9",
@@ -411,6 +462,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.9",
@@ -423,6 +475,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -430,6 +483,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -437,6 +491,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -444,6 +499,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -451,6 +507,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -463,6 +520,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -470,6 +528,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -477,6 +536,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -484,6 +544,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -491,6 +552,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -498,6 +560,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -510,6 +573,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -517,6 +581,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -524,6 +589,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -531,6 +597,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -538,6 +605,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -545,6 +613,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -557,6 +626,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -564,6 +634,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -571,6 +642,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -578,6 +650,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -585,6 +658,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -592,6 +666,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -604,6 +679,7 @@
     "patches": [
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.5",
@@ -611,6 +687,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.5",
@@ -618,6 +695,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.5",
@@ -625,6 +703,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -637,6 +716,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "5.5",
@@ -644,6 +724,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.5",
@@ -651,6 +732,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "5.5",
@@ -658,6 +740,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "5.5",
@@ -665,6 +748,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "5.5",
@@ -672,6 +756,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.5",
@@ -684,6 +769,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -691,6 +777,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -698,6 +785,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -705,6 +793,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -712,6 +801,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -719,6 +809,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -731,6 +822,7 @@
     "patches": [
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.5",
@@ -738,6 +830,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.5",
@@ -745,6 +838,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.5",
@@ -752,6 +846,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -764,6 +859,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -771,6 +867,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -778,6 +875,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -785,6 +883,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -792,6 +891,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -799,6 +899,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -811,6 +912,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.7",
@@ -818,6 +920,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.7",
@@ -825,6 +928,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.7",
@@ -832,6 +936,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.7",
@@ -839,6 +944,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.7",
@@ -846,6 +952,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.7",
@@ -858,6 +965,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -865,6 +973,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -872,6 +981,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -879,6 +989,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -886,6 +997,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -893,6 +1005,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -905,6 +1018,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -912,6 +1026,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -919,6 +1034,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -926,6 +1042,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -933,6 +1050,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -940,6 +1058,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -952,6 +1071,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "5.5",
@@ -959,6 +1079,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.5",
@@ -966,6 +1087,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "5.5",
@@ -973,6 +1095,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "5.5",
@@ -980,6 +1103,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "5.5",
@@ -987,6 +1111,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.5",
@@ -999,6 +1124,7 @@
     "patches": [
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.4",
@@ -1006,6 +1132,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.4",
@@ -1018,6 +1145,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "4.0",
@@ -1025,6 +1153,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "4.0",
@@ -1032,6 +1161,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "4.0",
@@ -1039,6 +1169,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "4.0",
@@ -1046,6 +1177,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "4.0",
@@ -1053,6 +1185,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "4.0",
@@ -1065,6 +1198,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "8.8",
@@ -1072,6 +1206,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "23H2",
         "kb": "KB5058405",
         "fixedBuild": "22631.5335",
         "severity": "8.8",
@@ -1079,6 +1214,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "8.8",
@@ -1086,6 +1222,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "8.8",
@@ -1093,6 +1230,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "8.8",
@@ -1105,6 +1243,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.0",
@@ -1112,6 +1251,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.0",
@@ -1119,6 +1259,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.0",
@@ -1126,6 +1267,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.0",
@@ -1138,6 +1280,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.5",
@@ -1145,6 +1288,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -1152,6 +1296,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.5",
@@ -1159,6 +1304,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.5",
@@ -1166,6 +1312,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.5",
@@ -1173,6 +1320,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -1185,6 +1333,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "5.9",
@@ -1192,6 +1341,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "23H2",
         "kb": "KB5058405",
         "fixedBuild": "22631.5335",
         "severity": "5.9",
@@ -1199,6 +1349,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "5.9",
@@ -1206,6 +1357,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "5.9",
@@ -1213,6 +1365,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "5.9",
@@ -1225,6 +1378,7 @@
     "patches": [
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.2",
@@ -1232,6 +1386,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.2",
@@ -1239,6 +1394,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.2",
@@ -1251,6 +1407,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "5.4",
@@ -1258,6 +1415,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.4",
@@ -1265,6 +1423,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "5.4",
@@ -1272,6 +1431,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "5.4",
@@ -1279,6 +1439,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "5.4",
@@ -1286,6 +1447,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.4",
@@ -1298,6 +1460,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.2",
@@ -1305,6 +1468,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.2",
@@ -1312,6 +1476,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.2",
@@ -1319,6 +1484,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.2",
@@ -1326,6 +1492,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.2",
@@ -1333,6 +1500,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.2",
@@ -1345,6 +1513,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -1352,6 +1521,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -1359,6 +1529,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -1366,6 +1537,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -1373,6 +1545,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -1380,6 +1553,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -1392,6 +1566,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "6.5",
@@ -1399,6 +1574,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -1406,6 +1582,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "6.5",
@@ -1413,6 +1590,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "6.5",
@@ -1420,6 +1598,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "6.5",
@@ -1427,6 +1606,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "6.5",
@@ -1439,6 +1619,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "8.8",
@@ -1446,6 +1627,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -1453,6 +1635,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "8.8",
@@ -1460,6 +1643,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "8.8",
@@ -1467,6 +1651,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "8.8",
@@ -1474,6 +1659,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -1486,6 +1672,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "8.8",
@@ -1493,6 +1680,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -1500,6 +1688,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "8.8",
@@ -1507,6 +1696,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "8.8",
@@ -1514,6 +1704,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "8.8",
@@ -1526,6 +1717,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "5.7",
@@ -1533,6 +1725,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.7",
@@ -1540,6 +1733,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "5.7",
@@ -1547,6 +1741,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "5.7",
@@ -1554,6 +1749,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "5.7",
@@ -1561,6 +1757,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "5.7",
@@ -1573,6 +1770,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -1580,6 +1778,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -1587,6 +1786,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -1594,6 +1794,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -1601,6 +1802,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -1608,6 +1810,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -1620,6 +1823,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -1627,6 +1831,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -1634,6 +1839,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -1641,6 +1847,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -1648,6 +1855,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -1655,6 +1863,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -1667,6 +1876,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.5",
@@ -1674,6 +1884,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -1681,6 +1892,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.5",
@@ -1688,6 +1900,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.5",
@@ -1695,6 +1908,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.5",
@@ -1702,6 +1916,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.5",
@@ -1714,6 +1929,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "1809",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -1721,6 +1937,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -1728,6 +1945,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -1740,6 +1958,7 @@
     "patches": [
       {
         "os": "Windows 10",
+        "version": "22H2",
         "kb": "KB5058379",
         "fixedBuild": "19045.5854",
         "severity": "7.8",
@@ -1747,6 +1966,7 @@
       },
       {
         "os": "Windows 11",
+        "version": "24H2",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",
@@ -1754,6 +1974,7 @@
       },
       {
         "os": "Windows Server 2016",
+        "version": "2016",
         "kb": "KB5058383",
         "fixedBuild": "14393.8066",
         "severity": "7.8",
@@ -1761,6 +1982,7 @@
       },
       {
         "os": "Windows Server 2019",
+        "version": "2019",
         "kb": "KB5058392",
         "fixedBuild": "17763.7314",
         "severity": "7.8",
@@ -1768,6 +1990,7 @@
       },
       {
         "os": "Windows Server 2022",
+        "version": "2022",
         "kb": "KB5058384",
         "fixedBuild": "25398.1611",
         "severity": "7.8",
@@ -1775,6 +1998,7 @@
       },
       {
         "os": "Windows Server 2025",
+        "version": "2025",
         "kb": "KB5058411",
         "fixedBuild": "26100.4061",
         "severity": "7.8",

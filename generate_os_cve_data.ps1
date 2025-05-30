@@ -62,7 +62,7 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
             foreach ($remProductId in $remProductIds) {
                 if ($remProductId -in $osProductIds) {
                     $product = $osProducts | Where-Object { $_.ProductID -eq $remProductId }
-                    $entryKey = \"$cve-$kb-$remProductId\"
+                    $entryKey = "$cve-$kb-$remProductId"
 
                     if (-not $uniqueEntries.ContainsKey($entryKey)) {
                         $uniqueEntries[$entryKey] = $true

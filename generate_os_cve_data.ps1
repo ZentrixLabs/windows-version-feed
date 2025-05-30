@@ -159,29 +159,24 @@ foreach ($cve in $uniqueCVEs) {
 
     # Initialize the CVE mapping object
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
-    
-    # Create a local array to collect patch entries
     $patches = @()
     
-    # Loop through each OS group and add valid entries
     foreach ($group in $osGroups) {
         $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
         if ($latestEntry) {
-            $patches += [PSCustomObject]@{
+            if ($null -eq $patches) { $patches = @() }
+            $patches = @($patches + [PSCustomObject]@{
                 os = $group.Name
                 version = $versionMap[$latestEntry.ProductName] ? $versionMap[$latestEntry.ProductName] : "Unknown"
                 kb = "KB$($latestEntry.KB)"
                 fixedBuild = $latestEntry.FixedBuild -replace "^10\\.0\\.", ""
                 severity = $latestEntry.Severity
                 exploitStatus = $latestEntry.ExploitStatus
-            }
+            })
         }
     }
     
-    # Assign the patches back to the CVE mapping object
     $cveMapping.patches = $patches
-    
-    # Only add the mapping if there’s at least one patch
     if ($cveMapping.patches.Count -gt 0) {
         $cveData += $cveMapping
     }

@@ -162,6 +162,7 @@ foreach ($cve in $uniqueCVEs) {
         $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
         $cveMapping.patches += [PSCustomObject]@{
             os = $group.Name
+            version = $versionMap[$latestEntry.ProductName] ? $versionMap[$latestEntry.ProductName] : "Unknown"
             kb = "KB$($latestEntry.KB)"
             fixedBuild = $latestEntry.FixedBuild -replace '^10\.0\.', ''
             severity = $latestEntry.Severity

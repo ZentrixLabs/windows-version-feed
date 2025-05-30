@@ -159,20 +159,19 @@ foreach ($cve in $uniqueCVEs) {
 
     # Initialize the CVE mapping object
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
-    $patches = @()
+    $patches = [System.Collections.ArrayList]::new()
     
     foreach ($group in $osGroups) {
         $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
         if ($latestEntry) {
-            if ($null -eq $patches) { $patches = @() }
-            $patches = @($patches + [PSCustomObject]@{
+            $patches.Add([PSCustomObject]@{
                 os = $group.Name
                 version = $versionMap[$latestEntry.ProductName] ? $versionMap[$latestEntry.ProductName] : "Unknown"
                 kb = "KB$($latestEntry.KB)"
                 fixedBuild = $latestEntry.FixedBuild -replace "^10\\.0\\.", ""
                 severity = $latestEntry.Severity
                 exploitStatus = $latestEntry.ExploitStatus
-            })
+            }) | Out-Null
         }
     }
     

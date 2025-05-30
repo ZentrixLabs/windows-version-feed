@@ -16,6 +16,16 @@
       align-items: center;
       padding: 40px 20px;
     }
+    @keyframes neonPulse {
+      0%, 100% {
+        text-shadow: 0 0 4px #1f4fff, 0 0 10px #1f4fff, 0 0 20px #1f4fff;
+        color: #1f4fff;
+      }
+      50% {
+        text-shadow: 0 0 2px #1f4fff, 0 0 5px #39ff14;
+        color: #39ff14;
+      }
+    }
     h1 {
       color: #1f4fff;
       font-size: 2.5rem;
@@ -48,6 +58,22 @@
       border-radius: 4px;
       color: #39ff14;
     }
+    .neon-callout {
+      margin-top: 1em;
+      padding: 1em;
+      border: 1px solid #1f4fff;
+      background: #111;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .neon-callout a {
+      color: #1f4fff;
+      font-weight: bold;
+      font-size: 1.05rem;
+      display: inline-block;
+      animation: neonPulse 2.8s infinite;
+      transition: text-shadow 0.3s ease;
+    }
   </style>
 </head>
 <body>
@@ -76,7 +102,11 @@
       <li>Match <code>CrowdStrike Spotlight</code> vuln IDs to KBs</li>
       <li>Feed into <code>PDQ, Power BI, or CMDB tools</code></li>
     </ul>
-    <p>Read the full post: <a href="https://zentrixlabs.net/patch-intel-unlocked-the-windows-version-feed-project">Hashnode Devlog</a></p>
+    <div class="neon-callout">
+      💡 <a href="https://zentrixlabs.net/patch-intel-unlocked-the-windows-version-feed-project">
+        Read the full devlog: Patch Intel, Unlocked →
+      </a>
+    </div>
   </div>
 
   <div class="card">

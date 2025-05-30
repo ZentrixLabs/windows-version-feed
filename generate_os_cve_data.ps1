@@ -168,7 +168,7 @@ foreach ($cve in $uniqueCVEs) {
                 os = $group.Name
                 version = $versionMap[$latestEntry.ProductName] ? $versionMap[$latestEntry.ProductName] : "Unknown"
                 kb = "KB$($latestEntry.KB)"
-                fixedBuild = $latestEntry.FixedBuild -replace '^10\.0\.', ''
+                fixedBuild = ($latestEntry.FixedBuild -replace '^10\.0\.', '')
                 severity = $latestEntry.Severity
                 exploitStatus = $latestEntry.ExploitStatus
             }) | Out-Null

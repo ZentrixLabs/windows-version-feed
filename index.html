@@ -1,16 +1,88 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Windows Version Feed</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Windows Version Feed | ZentrixLabs</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'JetBrains Mono', monospace;
+      background-color: #0b0c10;
+      color: #39ff14;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #1f4fff;
+      font-size: 2.5rem;
+      margin-bottom: 0.2em;
+    }
+    .subtitle {
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 2em;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #39ff14;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 10px;
+      max-width: 700px;
+      width: 100%;
+    }
+    a {
+      color: #1f4fff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      background-color: #111;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #39ff14;
+    }
+  </style>
 </head>
 <body>
-  <h1>Windows Version Feed</h1>
-  <ul>
-    <li><a href="windows-versions.json">windows-versions.json</a></li>
-    <li><a href="CVE_KB_Mapping_2025-May.json">CVE_KB_Mapping_2025-May.json</a></li>
-  </ul>
-  <p>This is the JSON feed repository for Windows Versions and CVE mappings by ZentrixLabs.</p>
+  <h1>🖥 WINDOWS VERSION FEED</h1>
+  <div class="subtitle">A living map of builds, KBs, and CVEs – by ZentrixLabs</div>
+
+  <div class="card">
+    <h2>📦 Available Feeds</h2>
+    <ul>
+      <li><a href="windows-versions.json">windows-versions.json</a> – Current build metadata across Windows editions</li>
+      <li><a href="CVE_KB_Mapping_2025-May.json">CVE_KB_Mapping_2025-May.json</a> – KB to CVE mapping for May 2025</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🛠 Automation</h2>
+    <p>Run <code>generate_os_cve_data.ps1</code> to generate or update feeds. Integrates with GitHub Actions for monthly updates.</p>
+    <p>Clone, modify, or pull into your own CI/CD systems:</p>
+    <code>git clone https://github.com/ZentrixLabs/windows-version-feed.git</code>
+  </div>
+
+  <div class="card">
+    <h2>📚 Docs & Use Cases</h2>
+    <ul>
+      <li>Compare against <code>Azure Update Manager</code> results</li>
+      <li>Match <code>CrowdStrike Spotlight</code> vuln IDs to KBs</li>
+      <li>Feed into <code>PDQ, Power BI, or CMDB tools</code></li>
+    </ul>
+    <p>Read the full post: <a href="https://zentrixlabs.hashnode.dev">Hashnode Devlog</a></p>
+  </div>
+
+  <div class="card">
+    <h2>🤝 Contribute</h2>
+    <p>This is for the sysadmins, patch freaks, and automation tinkerers. Open source, MIT licensed, pull requests welcome.</p>
+    <p>📡 <a href="https://zentrixlabs.net">ZentrixLabs.net</a> | 💾 <a href="https://github.com/ZentrixLabs">GitHub</a></p>
+  </div>
 </body>
 </html>

@@ -1,6 +1,10 @@
 # Windows Versions and CVE Data Extraction Script
 # Author: Patch Validation
 
+# (Full script with corrected syntax, no unnecessary backslashes.)
+
+# [Full script content below.]
+
 # Get current date and format for CVRF ID (e.g., 2025-May)
 $date = Get-Date -Format "yyyy-MM-dd"
 $monthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName((Get-Date).Month)
@@ -24,11 +28,11 @@ if (-not $osProducts) {
 $versionMap = @{}
 foreach ($product in $osProducts) {
     $name = $product.ProductName
-    if ($name -match 'Windows Server (\\d{4})') {
+    if ($name -match 'Windows Server (\d{4})') {
         $versionMap[$name] = $matches[1]
-    } elseif ($name -match 'Windows 10 Version ([\\dA-Z]+)') {
+    } elseif ($name -match 'Windows 10 Version ([\dA-Z]+)') {
         $versionMap[$name] = $matches[1]
-    } elseif ($name -match 'Windows 11 Version ([\\dA-Z]+)') {
+    } elseif ($name -match 'Windows 11 Version ([\dA-Z]+)') {
         $versionMap[$name] = $matches[1]
     } elseif ($name -match 'Windows Server 2022') {
         $versionMap[$name] = 'LTSC'
@@ -93,10 +97,10 @@ $osGroups = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Group-Objec
     elseif ($name -like '*Windows Server 2019*') { 'Windows Server 2019' }
     elseif ($name -like '*Windows Server 2025*') { 'Windows Server 2025' }
     elseif ($name -like '*Windows 10*') {
-        if ($name -match 'Windows 10 Version ([\\dA-Z]+)') { \"Windows 10 Version $($matches[1])\" } else { 'Windows 10' }
+        if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
     }
     elseif ($name -like '*Windows 11*') {
-        if ($name -match 'Windows 11 Version ([\\dA-Z]+)') { \"Windows 11 Version $($matches[1])\" } else { 'Windows 11' }
+        if ($name -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
     } else { $name }
 }
 
@@ -113,8 +117,8 @@ foreach ($group in $osGroups) {
     $osData += [PSCustomObject]@{
         os          = $osName
         version     = $versionMap[$latestEntry.ProductName] ? $versionMap[$latestEntry.ProductName] : 'Unknown'
-        build       = $latestEntry.FixedBuild -replace '^10\\.0\\.', ''
-        latestKB    = \"KB$($latestEntry.KB)\"
+        build       = $latestEntry.FixedBuild -replace '^10\.0\.', ''
+        latestKB    = "KB$($latestEntry.KB)"
         releaseDate = ($latestEntry.PublishedDate -replace 'T.*', '')
     }
 }
@@ -122,7 +126,7 @@ foreach ($group in $osGroups) {
 # Export OS dataset
 $osData | ConvertTo-Json | Out-File -FilePath 'windows-versions.json' -Encoding UTF8
 
-# Build CVE-to-KB mapping
+# Build CVE-to-KB mapping dataset
 $cveData = @()
 $uniqueCVEs = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Select-Object -ExpandProperty CVE -Unique
 
@@ -135,10 +139,10 @@ foreach ($cve in $uniqueCVEs) {
             '*Windows Server 2022*' { 'Windows Server 2022' }
             '*Windows Server 2025*' { 'Windows Server 2025' }
             '*Windows 10*' {
-                if ($_.ProductName -match 'Windows 10 Version ([\\dA-Z]+)') { \"Windows 10 Version $($matches[1])\" } else { 'Windows 10' }
+                if ($_.ProductName -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
             }
             '*Windows 11*' {
-                if ($_.ProductName -match 'Windows 11 Version ([\\dA-Z]+)') { \"Windows 11 Version $($matches[1])\" } else { 'Windows 11' }
+                if ($_.ProductName -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
             }
             default { $_.ProductName }
         }
@@ -158,8 +162,8 @@ foreach ($cve in $uniqueCVEs) {
         $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
         $cveMapping.patches += [PSCustomObject]@{
             os = $group.Name
-            kb = \"KB$($latestEntry.KB)\"
-            fixedBuild = $latestEntry.FixedBuild -replace '^10\\.0\\.', ''
+            kb = "KB$($latestEntry.KB)"
+            fixedBuild = $latestEntry.FixedBuild -replace '^10\.0\.', ''
             severity = $latestEntry.Severity
             exploitStatus = $latestEntry.ExploitStatus
         }
@@ -169,4 +173,6 @@ foreach ($cve in $uniqueCVEs) {
 }
 
 # Export CVE-KB mapping
-$cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath \"CVE_KB_Mapping_$month.json\" -Encoding UTF8
+$cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath "CVE_KB_Mapping_$month.json" -Encoding UTF8
+
+# End of Script

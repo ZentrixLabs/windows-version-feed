@@ -6,9 +6,24 @@ $date = Get-Date -Format "yyyy-MM-dd"
 $monthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName((Get-Date).Month)
 $month = "$($date.Substring(0,4))-$monthAbbr"
 
-# Fetch CVRF data
-$cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
-$doc = $cvrf.cvrfdoc
+# Try to fetch CVRF data
+try {
+    $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
+}
+catch {
+    # If a 404 error occurs, try previous month
+    if ($_.Exception.Response.StatusCode.value__ -eq 404) {
+        $prevMonthDate = $date.AddMonths(-1)
+        $prevMonthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName($prevMonthDate.Month)
+        $month = "$($prevMonthDate.Year)-$prevMonthAbbr"
+
+        Write-Warning "Current month not found, falling back to: $month"
+        $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
+    }
+    else {
+        throw
+    }
+}
 
 # Build dynamic OS list
 $osProducts = $doc.ProductTree.FullProductName | Where-Object {

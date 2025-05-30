@@ -2,14 +2,14 @@ name: Update Windows Versions and CVE Mappings
 
 on:
   schedule:
-    - cron: '0 0 15 * *' # Run at midnight UTC on the 15th of each month
+    - cron: '0 0 15 * *'
   push:
     branches:
       - main
     paths:
       - 'generate_os_cve_data.ps1'
       - 'kb_cve_data.csv'
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
 
 jobs:
   update-json:
@@ -30,13 +30,13 @@ jobs:
         ./generate_os_cve_data.ps1
 
     - name: Commit and push changes
+      shell: bash
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      shell: pwsh
       run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        git remote set-url origin https://x-access-token:$env:GH_TOKEN@github.com/ZentrixLabs/windows-version-feed.git
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/ZentrixLabs/windows-version-feed.git
         git add windows-versions.json CVE_KB_Mapping_*.json kb_cve_data.csv
-        git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and kb_cve_data for $((Get-Date -Format 'yyyy-MMMM'))"
+        git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and kb_cve_data for $(date +'%Y-%B')"
         git push

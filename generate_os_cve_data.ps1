@@ -218,4 +218,24 @@ foreach ($cve in $uniqueCVEs) {
 
 $cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath "CVE_KB_Mapping_$month.json" -Encoding UTF8
 
+# Save the 'current' versions
+
+# For Windows Versions
+Copy-Item -Path 'windows-versions.json' -Destination 'windows-versions-current.json' -Force
+
+# For CVE Mapping
+# Rename the monthly file to use consistent YYYY-MM (optional)
+$monthForFile = "$($month.Substring(0,4))-$($month.Substring(5))"
+$monthlyCveFile = "CVE_KB_Mapping_$monthForFile.json"
+Rename-Item -Path "CVE_KB_Mapping_$month.json" -NewName $monthlyCveFile -Force
+
+# Save a 'current' version
+Copy-Item -Path $monthlyCveFile -Destination 'CVE_KB_Mapping_current.json' -Force
+
+Write-Output "Files saved:"
+Write-Output "- windows-versions-current.json"
+Write-Output "- $monthlyCveFile"
+Write-Output "- CVE_KB_Mapping_current.json"
+
+
 # End of Script

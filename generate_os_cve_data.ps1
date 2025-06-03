@@ -3,14 +3,16 @@
 
 # Get current date and format for CVRF ID (e.g., 2025-May)
 $date = Get-Date -Format "yyyy-MM-dd"
-$monthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName((Get-Date).Month)
+$monthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName((Get-Date).Month).Substring(0,3)
 $month = "$($date.Substring(0,4))-$monthAbbr"
 
 # Try to fetch CVRF data
 try {
+    Write-Host "Attempting to fetch: https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
     $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
 }
 catch {
+    # If a 404 error occurs, try previous month
     if ($_.Exception.Response.StatusCode.value__ -eq 404) {
         $prevMonthDate = (Get-Date).AddMonths(-1)
         $prevMonthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName($prevMonthDate.Month).Substring(0,3)

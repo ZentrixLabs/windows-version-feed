@@ -11,8 +11,11 @@ This project collects and organizes Microsoft’s monthly CVRF (Common Vulnerabi
 
 ## Files
 
-- **windows-versions.json** — Contains the latest OS build information, including build number, latest KB, and release date.
-- **CVE_KB_Mapping_YYYY-MMM.json** — Contains CVE-to-KB mappings for the current patch cycle (e.g., `CVE_KB_Mapping_2025-May.json`).
+- **windows-versions-current.json** — Contains the **latest OS build information**, including build number, latest KB, and release date. This file is updated automatically.
+- **CVE_KB_Mapping_current.json** — Contains the **latest CVE-to-KB mappings** for Windows systems.
+- **Historical Archives:**
+  - **windows-versions.json** — Monthly snapshot of Windows version data (archived monthly).
+  - **CVE_KB_Mapping_YYYY-MMM.json** — Monthly snapshot of CVE-to-KB mappings (e.g., `CVE_KB_Mapping_2025-May.json`).
 
 ## Usage
 
@@ -20,6 +23,12 @@ These JSON files can be integrated into automated workflows, dashboards, or vuln
 - Validate current patch levels for Windows systems
 - Correlate CVEs to specific Windows builds and KBs
 - Enhance visibility into Microsoft’s patching cycle
+
+For the latest data, always use:
+windows-versions-current.json
+CVE_KB_Mapping_current.json
+
+For historical reference, archived files are available for previous months.
 
 ## Automation
 
@@ -35,7 +44,3 @@ This project is open source and licensed under the [MIT License](LICENSE).
 ## Maintainers
 
 Mike (at) ZentrixLabs.
-
----
-
-Let me know if you'd like any edits or expansions! 🚀

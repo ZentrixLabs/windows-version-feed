@@ -110,21 +110,24 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
     }
 }
 
-# Build OS dataset dynamically
+# Build OS dataset
 $osData = @()
 $osGroups = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Group-Object -Property {
     $name = $_.ProductName
-    if ($name -like '*Windows Server 2022, 23H2*') { 'Windows Server 2022 23H2' }
-    elseif ($name -like '*Windows Server 2022*') { 'Windows Server 2022' }
-    elseif ($name -like '*Windows Server 2016*') { 'Windows Server 2016' }
-    elseif ($name -like '*Windows Server 2019*') { 'Windows Server 2019' }
-    elseif ($name -like '*Windows Server 2025*') { 'Windows Server 2025' }
-    elseif ($name -like '*Windows 10*') {
-        if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
+    switch -Wildcard ($name) {
+        '*Windows Server 2022, 23H2*' { 'Windows Server 2022 23H2' }
+        '*Windows Server 2022*' { 'Windows Server 2022' }
+        '*Windows Server 2016*' { 'Windows Server 2016' }
+        '*Windows Server 2019*' { 'Windows Server 2019' }
+        '*Windows Server 2025*' { 'Windows Server 2025' }
+        '*Windows 10*' { 
+            if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
+        }
+        '*Windows 11*' { 
+            if ($name -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
+        }
+        default { $name }
     }
-    elseif ($name -like '*Windows 11*') {
-        if ($name -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
-    } else { $name }
 }
 
 foreach ($group in $osGroups) {
@@ -136,13 +139,7 @@ foreach ($group in $osGroups) {
     $name = $latestEntry.ProductName
     if (-not $name) { continue }
 
-    $osNameForLookup = $osName
-    $version = 'Unknown'
-    if ($versionMap.ContainsKey($name)) {
-        $version = $versionMap[$name]
-    } elseif ($versionMap.ContainsKey($osNameForLookup)) {
-        $version = $versionMap[$osNameForLookup]
-    }
+    $version = $versionMap[$name] ?? 'Unknown'
 
     $osData += [PSCustomObject]@{
         os          = $osName
@@ -153,39 +150,33 @@ foreach ($group in $osGroups) {
     }
 }
 
-$osData | ConvertTo-Json | Out-File -FilePath 'windows-versions.json' -Encoding UTF8
+if ($osData.Count -gt 0) {
+    $osData | ConvertTo-Json | Out-File -FilePath 'windows-versions.json' -Encoding UTF8
+    Copy-Item -Path 'windows-versions.json' -Destination 'windows-versions-current.json' -Force
+}
 
-# Build CVE-to-KB mapping dataset
+# CVE-to-KB mapping
 $cveData = @()
 $uniqueCVEs = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Select-Object -ExpandProperty CVE -Unique
 
 foreach ($cve in $uniqueCVEs) {
     $cveEntries = $kbCveMap | Where-Object { $_.CVE -eq $cve -and $_.KB -ne 'Release Notes' }
-    $osGroups = $cveEntries | ForEach-Object {
-        $osName = switch -Wildcard ($_.ProductName) {
+    $osGroups = $cveEntries | Group-Object -Property {
+        $name = $_.ProductName
+        switch -Wildcard ($name) {
             '*Windows Server 2016*' { 'Windows Server 2016' }
             '*Windows Server 2019*' { 'Windows Server 2019' }
             '*Windows Server 2022*' { 'Windows Server 2022' }
             '*Windows Server 2025*' { 'Windows Server 2025' }
-            '*Windows 10*' {
-                if ($_.ProductName -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
+            '*Windows 10*' { 
+                if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
             }
-            '*Windows 11*' {
-                if ($_.ProductName -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
+            '*Windows 11*' { 
+                if ($name -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
             }
-            default { $_.ProductName }
+            default { $name }
         }
-        if ($osName) {
-            [PSCustomObject]@{
-                OS = $osName
-                KB = $_.KB
-                FixedBuild = $_.FixedBuild
-                Severity = $_.Severity
-                ExploitStatus = $_.ExploitStatus
-                ProductName = $_.ProductName
-            }
-        }
-    } | Where-Object { $_.OS } | Group-Object -Property OS
+    }
 
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
     foreach ($group in $osGroups) {
@@ -194,13 +185,7 @@ foreach ($cve in $uniqueCVEs) {
         $name = $latestEntry.ProductName
         if (-not $name) { continue }
 
-        $osNameForLookup = $group.Name
-        $version = 'Unknown'
-        if ($versionMap.ContainsKey($name)) {
-            $version = $versionMap[$name]
-        } elseif ($versionMap.ContainsKey($osNameForLookup)) {
-            $version = $versionMap[$osNameForLookup]
-        }
+        $version = $versionMap[$name] ?? 'Unknown'
 
         $cveMapping.patches += [PSCustomObject]@{
             os = $group.Name
@@ -216,26 +201,12 @@ foreach ($cve in $uniqueCVEs) {
     }
 }
 
-$cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath "CVE_KB_Mapping_$month.json" -Encoding UTF8
+if ($cveData.Count -gt 0) {
+    $monthForFile = "$($month.Substring(0,4))-$($month.Substring(5))"
+    $monthlyCveFile = "CVE_KB_Mapping_$monthForFile.json"
+    $cveData | ConvertTo-Json -Depth 3 | Out-File -FilePath $monthlyCveFile -Encoding UTF8
+    Copy-Item -Path $monthlyCveFile -Destination 'CVE_KB_Mapping_current.json' -Force
+}
 
-# Save the 'current' versions
-
-# For Windows Versions
-Copy-Item -Path 'windows-versions.json' -Destination 'windows-versions-current.json' -Force
-
-# For CVE Mapping
-# Rename the monthly file to use consistent YYYY-MM (optional)
-$monthForFile = "$($month.Substring(0,4))-$($month.Substring(5))"
-$monthlyCveFile = "CVE_KB_Mapping_$monthForFile.json"
-Rename-Item -Path "CVE_KB_Mapping_$month.json" -NewName $monthlyCveFile -Force
-
-# Save a 'current' version
-Copy-Item -Path $monthlyCveFile -Destination 'CVE_KB_Mapping_current.json' -Force
-
-Write-Output "Files saved:"
-Write-Output "- windows-versions-current.json"
-Write-Output "- $monthlyCveFile"
-Write-Output "- CVE_KB_Mapping_current.json"
-
-
-# End of Script
+Write-Host "Script completed. Files generated:"
+Get-ChildItem

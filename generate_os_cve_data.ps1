@@ -11,13 +11,13 @@ try {
     $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
 }
 catch {
-    # If a 404 error occurs, try previous month
     if ($_.Exception.Response.StatusCode.value__ -eq 404) {
-        $prevMonthDate = $date.AddMonths(-1)
-        $prevMonthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName($prevMonthDate.Month)
+        $prevMonthDate = (Get-Date).AddMonths(-1)
+        $prevMonthAbbr = (Get-Culture).DateTimeFormat.GetAbbreviatedMonthName($prevMonthDate.Month).Substring(0,3)
         $month = "$($prevMonthDate.Year)-$prevMonthAbbr"
 
-        Write-Warning "Current month not found, falling back to: $month"
+        Write-Warning "Current month not found. Falling back to: $month"
+        Write-Host "Fallback URL: https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
         $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
     }
     else {

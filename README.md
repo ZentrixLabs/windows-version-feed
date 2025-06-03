@@ -25,8 +25,9 @@ These JSON files can be integrated into automated workflows, dashboards, or vuln
 - Enhance visibility into Microsoft’s patching cycle
 
 For the latest data, always use:
-windows-versions-current.json
-CVE_KB_Mapping_current.json
+
+- windows-versions-current.json
+- CVE_KB_Mapping_current.json
 
 For historical reference, archived files are available for previous months.
 

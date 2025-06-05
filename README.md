@@ -1,6 +1,6 @@
 # Windows Version Feed
 
-This repository is a JSON feed repository that provides up-to-date Windows OS build information and CVE mappings by Patch Validation (ZentrixLabs).
+This repository is a JSON feed repository that provides up-to-date Windows OS build information and CVE mappings.
 
 ## Purpose
 

@@ -235,8 +235,9 @@ foreach ($cve in $uniqueCVEs) {
             }
             '*Windows 11*' { 
                 if ($name -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
-        }
+            }
             default { $name }
+        }
     }
 
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }

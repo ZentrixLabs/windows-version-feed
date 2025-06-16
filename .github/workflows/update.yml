@@ -2,7 +2,7 @@ name: Update Windows Versions and CVE Mappings
 
 on:
   schedule:
-    - cron: '0 0 * * 3'  # Every Wednesday at 00:00 UTC
+    - cron: '0 0 * * *' # Every day at 00:00 UTC
   push:
     branches:
       - main
@@ -19,38 +19,42 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for accurate commits
 
-    - name: Set up PowerShell
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'
+      - name: Run PowerShell script
+        shell: pwsh
+        run: |
+          try {
+            ./generate_os_cve_data.ps1
+          } catch {
+            Write-Error "Script failed: $_"
+            exit 1
+          }
 
-    - name: Run PowerShell script
-      shell: pwsh
-      run: |
-        ./generate_os_cve_data.ps1
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    - name: Commit and push changes
-      shell: bash
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          files_to_add=""
+          test -f windows-versions.json && files_to_add="$files_to_add windows-versions.json"
+          test -f windows-versions-current.json && files_to_add="$files_to_add windows-versions-current.json"
+          test -f kb_cve_data.csv && files_to_add="$files_to_add kb_cve_data.csv"
 
-        files_to_add=""
-        test -f windows-versions.json && files_to_add="$files_to_add windows-versions.json"
-        test -f windows-versions-current.json && files_to_add="$files_to_add windows-versions-current.json"
-        test -f kb_cve_data.csv && files_to_add="$files_to_add kb_cve_data.csv"
+          for file in CVE_KB_Mapping_*.json cvrf_mapping_debug_*.txt; do
+            test -f "$file" && files_to_add="$files_to_add $file"
+          done
 
-        for file in CVE_KB_Mapping_*.json; do
-          test -f "$file" && files_to_add="$files_to_add $file"
-        done
-
-        if [ -n "$files_to_add" ]; then
-          git add $files_to_add
-          git diff --staged --quiet || git commit -m "Update windows-versions.json, CVE_KB_Mapping, and kb_cve_data for $(date +'%Y-%B')"
-          git push
-        else
-          echo "No files to commit."
-        fi
+          if [ -n "$files_to_add" ]; then
+            git add $files_to_add
+            git diff --staged --quiet || git commit -m "Update CVE-to-KB mappings for $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No files to commit."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

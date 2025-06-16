@@ -39,7 +39,7 @@ $doc = $cvrf.cvrfdoc
 # Build dynamic OS list, excluding unwanted products
 $osProducts = $doc.ProductTree.FullProductName | Where-Object {
     $_.'#text' -match 'Windows Server|Windows 10|Windows 11' -and
-    $_.'#text' -notmatch 'Windows Server 2025|Preview|Insider|Windows HLK'
+    $_.'#text' -notmatch 'Preview|Insider|Windows HLK'
 } | Select-Object ProductID, @{Name='ProductName';Expression={$_.'#text'}}
 
 if (-not $osProducts) {
@@ -55,6 +55,7 @@ $buildRanges = @{
     'Windows Server 2016' = '10.0.14393.'
     'Windows Server 2019' = '10.0.17763.'
     'Windows Server 2022' = '10.0.20348.'
+    'Windows Server 2025' = '10.0.26100.'
     'Windows 10 Version' = '10.0.1[89]0..'
     'Windows 11 Version' = '10.0.2[23]...'
 }
@@ -77,7 +78,10 @@ foreach ($product in $osProducts) {
         $version = $win11Match.Groups[1].Value
     }
     elseif ($name -like '*Windows Server 2022*') {
-        $version = '2022' # Use '2022' instead of 'LTSC' for consistency
+        $version = '2022'
+    }
+    elseif ($name -like '*Windows Server 2025*') {
+        $version = '2025'
     }
 
     $versionMap[$product.ProductID] = @{ Name = $name; Version = $version }
@@ -118,6 +122,7 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
                         '*Windows Server 2016*' { 'Windows Server 2016' }
                         '*Windows Server 2019*' { 'Windows Server 2019' }
                         '*Windows Server 2022*' { 'Windows Server 2022' }
+                        '*Windows Server 2025*' { 'Windows Server 2025' }
                         '*Windows 10*' { 'Windows 10 Version' }
                         '*Windows 11*' { 'Windows 11 Version' }
                         default { 'Unknown' }
@@ -172,6 +177,7 @@ $osGroups = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Group-Objec
         '*Windows Server 2022*' { 
             if ($name -like '*23H2*') { 'Windows Server 2022 23H2' } else { 'Windows Server 2022' }
         }
+        '*Windows Server 2025*' { 'Windows Server 2025' }
         '*Windows 10*' { 
             if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
         }
@@ -186,7 +192,7 @@ foreach ($group in $osGroups) {
     $osName = $group.Name
     if ($osName -like '*HLK*') { continue }
 
-    $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
+    $latestEntry = $group.Group | Sort-Object PublishedDate -Descending, FixedBuild -Descending | Select-Object -First 1
     if (-not $latestEntry) { continue }
     $name = $latestEntry.ProductName
     if (-not $name) { continue }
@@ -230,6 +236,7 @@ foreach ($cve in $uniqueCVEs) {
             '*Windows Server 2022*' { 
                 if ($name -like '*23H2*') { 'Windows Server 2022 23H2' } else { 'Windows Server 2022' }
             }
+            '*Windows Server 2025*' { 'Windows Server 2025' }
             '*Windows 10*' { 
                 if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
             }
@@ -242,7 +249,7 @@ foreach ($cve in $uniqueCVEs) {
 
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
     foreach ($group in $osGroups) {
-        $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
+        $latestEntry = $group.Group | Sort-Object PublishedDate -Descending, FixedBuild -Descending | Select-Object -First 1
         if (-not $latestEntry) { continue }
         $name = $latestEntry.ProductName
         if (-not $name) { continue }
@@ -273,8 +280,8 @@ if ($cveData.Count -gt 0) {
         "Successfully exported cveData to $monthlyCveFile" | Out-File -FilePath $debugLog -Append
     }
     catch {
-        Write-Warning "Failed to export $monthlyCveFile : $($_.Exception.Message)"
-        "Failed to export $monthlyCveFile : $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
+        Write-Warning "Failed to export $monthlyCveFile: $($_.Exception.Message)"
+        "Failed to export $monthlyCveFile: $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
         throw
     }
 }

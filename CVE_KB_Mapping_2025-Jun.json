@@ -19,26 +19,10 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -66,16 +50,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5058384",
-        "fixedBuild": "25398.1611",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5058411",
-        "fixedBuild": "26100.4061",
+        "kb": "KB5058385",
+        "fixedBuild": "20348.3692",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -85,30 +61,6 @@
     "cve": "CVE-2025-32712",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -141,14 +93,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -167,16 +111,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -186,30 +122,6 @@
     "cve": "CVE-2025-32713",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -242,14 +154,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -268,16 +172,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
@@ -287,30 +183,6 @@
     "cve": "CVE-2025-32714",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -343,14 +215,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -369,16 +233,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
@@ -388,30 +244,6 @@
     "cve": "CVE-2025-32715",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -444,14 +276,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -470,16 +294,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -489,30 +305,6 @@
     "cve": "CVE-2025-32716",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -563,8 +355,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -574,30 +366,6 @@
     "cve": "CVE-2025-32718",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -630,14 +398,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -656,16 +416,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -675,30 +427,6 @@
     "cve": "CVE-2025-32719",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -731,14 +459,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -757,16 +477,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -776,30 +488,6 @@
     "cve": "CVE-2025-32720",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -832,14 +520,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -858,16 +538,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -877,30 +549,6 @@
     "cve": "CVE-2025-32721",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -933,14 +581,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -959,16 +599,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.3",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -978,30 +610,6 @@
     "cve": "CVE-2025-32722",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1034,14 +642,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1060,16 +660,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1079,30 +671,6 @@
     "cve": "CVE-2025-32724",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1135,14 +703,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1161,16 +721,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1180,30 +732,6 @@
     "cve": "CVE-2025-33058",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1236,14 +764,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1262,16 +782,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1281,30 +793,6 @@
     "cve": "CVE-2025-33059",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1337,14 +825,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1363,16 +843,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1382,30 +854,6 @@
     "cve": "CVE-2025-33060",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1438,14 +886,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1464,16 +904,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1483,22 +915,6 @@
     "cve": "CVE-2025-33061",
     "patches": [
       {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1531,14 +947,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1557,16 +965,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1576,22 +976,6 @@
     "cve": "CVE-2025-33062",
     "patches": [
       {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1624,14 +1008,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1650,16 +1026,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1669,14 +1037,6 @@
     "cve": "CVE-2025-33063",
     "patches": [
       {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1709,14 +1069,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5060531",
@@ -1727,16 +1079,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1746,30 +1090,6 @@
     "cve": "CVE-2025-33064",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1802,14 +1122,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1828,16 +1140,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1847,30 +1151,6 @@
     "cve": "CVE-2025-33065",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -1903,14 +1183,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -1929,16 +1201,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1948,30 +1212,6 @@
     "cve": "CVE-2025-33066",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2004,14 +1244,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2030,16 +1262,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -2049,30 +1273,6 @@
     "cve": "CVE-2025-33067",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "8.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "8.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "8.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2105,14 +1305,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2131,16 +1323,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.4",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2150,30 +1334,6 @@
     "cve": "CVE-2025-33075",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2206,14 +1366,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2232,16 +1384,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2251,30 +1395,6 @@
     "cve": "CVE-2025-47160",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2307,14 +1427,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2333,16 +1445,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.4",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2351,30 +1455,6 @@
   {
     "cve": "CVE-2025-47955",
     "patches": [
-      {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5058387",
-        "fixedBuild": "10240.21014",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5058383",
-        "fixedBuild": "14393.8066",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5058392",
-        "fixedBuild": "17763.7314",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
       {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
@@ -2408,14 +1488,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5058411",
-        "fixedBuild": "26100.4061",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5058383",
@@ -2434,16 +1506,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5058384",
-        "fixedBuild": "25398.1611",
-        "severity": "7.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5058411",
-        "fixedBuild": "26100.4061",
+        "kb": "KB5058385",
+        "fixedBuild": "20348.3692",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2471,16 +1535,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
@@ -2504,52 +1560,12 @@
         "fixedBuild": "22621.5335",
         "severity": "4.4",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5058411",
-        "fixedBuild": "26100.4061",
-        "severity": "4.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5058411",
-        "fixedBuild": "26100.4061",
-        "severity": "4.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
   {
     "cve": "CVE-2025-24068",
     "patches": [
-      {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
       {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
@@ -2583,14 +1599,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2609,16 +1617,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2628,30 +1628,6 @@
     "cve": "CVE-2025-24069",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2684,14 +1660,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2710,16 +1678,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2729,30 +1689,6 @@
     "cve": "CVE-2025-24065",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2785,14 +1721,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -2811,16 +1739,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2848,16 +1768,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2885,16 +1797,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -2904,14 +1808,6 @@
     "cve": "CVE-2025-33052",
     "patches": [
       {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -2944,14 +1840,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5060531",
@@ -2962,16 +1850,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -2981,30 +1861,6 @@
     "cve": "CVE-2025-33053",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -3037,14 +1893,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3063,16 +1911,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
       }
@@ -3082,30 +1922,6 @@
     "cve": "CVE-2025-33055",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -3138,14 +1954,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3164,16 +1972,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "5.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -3183,30 +1983,6 @@
     "cve": "CVE-2025-33056",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -3239,14 +2015,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3265,16 +2033,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -3284,30 +2044,6 @@
     "cve": "CVE-2025-33057",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -3340,14 +2076,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3366,16 +2094,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "6.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -3407,65 +2127,12 @@
         "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "7.5",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
-      }
-    ]
-  },
-  {
-    "cve": "CVE-2025-33069",
-    "patches": [
-      {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "5.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
   {
     "cve": "CVE-2025-33070",
     "patches": [
-      {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
       {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
@@ -3499,14 +2166,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3525,16 +2184,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.1",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
@@ -3544,30 +2195,6 @@
     "cve": "CVE-2025-33073",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -3600,14 +2227,6 @@
         "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3626,16 +2245,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -3645,30 +2256,6 @@
     "cve": "CVE-2025-3052",
     "patches": [
       {
-        "os": "Windows 10",
-        "version": "Unknown",
-        "kb": "KB5060998",
-        "fixedBuild": "10240.21034",
-        "severity": "6.7",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1607",
-        "version": "1607",
-        "kb": "KB5061010",
-        "fixedBuild": "14393.8148",
-        "severity": "6.7",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows 10 Version 1809",
-        "version": "1809",
-        "kb": "KB5060531",
-        "fixedBuild": "17763.7434",
-        "severity": "6.7",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5060533",
@@ -3701,14 +2288,6 @@
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       },
       {
-        "os": "Windows 11 Version 24H2",
-        "version": "24H2",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
-        "severity": "6.7",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5061010",
@@ -3727,16 +2306,8 @@
       {
         "os": "Windows Server 2022",
         "version": "2022",
-        "kb": "KB5060118",
-        "fixedBuild": "25398.1665",
-        "severity": "6.7",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5060842",
-        "fixedBuild": "26100.4349",
+        "kb": "KB5060526",
+        "fixedBuild": "20348.3807",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }

@@ -1,68 +1,5 @@
 [
   {
-    "os": "Windows Server 2022",
-    "version": "2022",
-    "build": "20348.3807",
-    "latestKB": "KB5060526",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows 11 Version 22H2",
-    "version": "22H2",
-    "build": "22621.5472",
-    "latestKB": "KB5060999",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows Server 2025",
-    "version": "2025",
-    "build": "26100.4349",
-    "latestKB": "KB5060842",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows 11 Version 24H2",
-    "version": "24H2",
-    "build": "26100.4349",
-    "latestKB": "KB5060842",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows 11 Version 23H2",
-    "version": "23H2",
-    "build": "22631.5472",
-    "latestKB": "KB5060999",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows Server 2022 23H2 Windows Server 2022",
-    "version": "2022",
-    "build": "25398.1665",
-    "latestKB": "KB5060118",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows Server 2019",
-    "version": "2019",
-    "build": "17763.7434",
-    "latestKB": "KB5060531",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows Server 2016",
-    "version": "2016",
-    "build": "14393.8148",
-    "latestKB": "KB5061010",
-    "releaseDate": "2025-06-10"
-  },
-  {
-    "os": "Windows 10 Version 1809",
-    "version": "1809",
-    "build": "17763.7434",
-    "latestKB": "KB5060531",
-    "releaseDate": "2025-06-10"
-  },
-  {
     "os": "Windows 10 Version 21H2",
     "version": "21H2",
     "build": "19044.5965",
@@ -77,17 +14,38 @@
     "releaseDate": "2025-06-10"
   },
   {
-    "os": "Windows 10",
-    "version": "Unknown",
-    "build": "10240.21034",
-    "latestKB": "KB5060998",
+    "os": "Windows 11 Version 22H2",
+    "version": "22H2",
+    "build": "22621.5472",
+    "latestKB": "KB5060999",
     "releaseDate": "2025-06-10"
   },
   {
-    "os": "Windows 10 Version 1607",
-    "version": "1607",
+    "os": "Windows 11 Version 23H2",
+    "version": "23H2",
+    "build": "22631.5472",
+    "latestKB": "KB5060999",
+    "releaseDate": "2025-06-10"
+  },
+  {
+    "os": "Windows Server 2016",
+    "version": "2016",
     "build": "14393.8148",
     "latestKB": "KB5061010",
+    "releaseDate": "2025-06-10"
+  },
+  {
+    "os": "Windows Server 2019",
+    "version": "2019",
+    "build": "17763.7434",
+    "latestKB": "KB5060531",
+    "releaseDate": "2025-06-10"
+  },
+  {
+    "os": "Windows Server 2022",
+    "version": "2022",
+    "build": "20348.3807",
+    "latestKB": "KB5060526",
     "releaseDate": "2025-06-10"
   }
 ]

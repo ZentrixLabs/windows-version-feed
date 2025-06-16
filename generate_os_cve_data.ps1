@@ -280,8 +280,8 @@ if ($cveData.Count -gt 0) {
         "Successfully exported cveData to $monthlyCveFile" | Out-File -FilePath $debugLog -Append
     }
     catch {
-        Write-Warning "Failed to export $monthlyCveFile: $($_.Exception.Message)"
-        "Failed to export $monthlyCveFile: $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
+        Write-Warning "Failed to export $monthlyCveFile : $($_.Exception.Message)"
+        "Failed to export $monthlyCveFile : $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
         throw
     }
 }

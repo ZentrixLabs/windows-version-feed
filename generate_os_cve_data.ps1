@@ -192,7 +192,7 @@ foreach ($group in $osGroups) {
     $osName = $group.Name
     if ($osName -like '*HLK*') { continue }
 
-    $latestEntry = $group.Group | Sort-Object PublishedDate -Descending, FixedBuild -Descending | Select-Object -First 1
+    $latestEntry = $group.Group | Sort-Object -Property @{Expression={$_.PublishedDate};Descending=$true}, @{Expression={$_.FixedBuild};Descending=$true} | Select-Object -First 1
     if (-not $latestEntry) { continue }
     $name = $latestEntry.ProductName
     if (-not $name) { continue }
@@ -249,7 +249,7 @@ foreach ($cve in $uniqueCVEs) {
 
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
     foreach ($group in $osGroups) {
-        $latestEntry = $group.Group | Sort-Object PublishedDate -Descending, FixedBuild -Descending | Select-Object -First 1
+        $latestEntry = $group.Group | Sort-Object -Property @{Expression={$_.PublishedDate};Descending=$true}, @{Expression={$_.FixedBuild};Descending=$true} | Select-Object -First 1
         if (-not $latestEntry) { continue }
         $name = $latestEntry.ProductName
         if (-not $name) { continue }
@@ -280,8 +280,8 @@ if ($cveData.Count -gt 0) {
         "Successfully exported cveData to $monthlyCveFile" | Out-File -FilePath $debugLog -Append
     }
     catch {
-        Write-Warning "Failed to export $monthlyCveFile : $($_.Exception.Message)"
-        "Failed to export $monthlyCveFile : $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
+        Write-Warning "Failed to export $monthlyCveFile: $($_.Exception.Message)"
+        "Failed to export $monthlyCveFile: $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
         throw
     }
 }

@@ -53,7 +53,7 @@ catch {
         $kb = [regex]::Match($block, '<Description>(KB\d+)</Description>').Groups[1].Value
         $fixedBuild = [regex]::Match($block, '<FixedBuild>([^<]+)</FixedBuild>').Groups[1].Value
         $productIds = [regex]::Matches($block, '<ProductID>([^<]+)</ProductID>') | ForEach-Object { $_.Groups[1].Value }
-        $vulnBlock = ($xmlRaw -split '</Remediation>') | Where-Object { $_ -like "*$kb*" } | Select-String -Pattern '<Vulnerability[^>]*CVE="([^"]+)"' | ForEach-Object { $_.Matches[0].Groups[1].Value }
+        $vulnBlock = ($xmlRaw -split '</Remediation>') | Where-Object { $_ -like "*$kb*" } | Select-String -Pattern '<Vulnerability[^>]*CVE="([^"]+)' | ForEach-Object { $_.Matches[0].Groups[1].Value }
 
         foreach ($cve in $vulnBlock) {
             foreach ($pid in $productIds) {
@@ -62,16 +62,18 @@ catch {
                 $exploitStatus = 'N/A (fallback)'
                 $publishedDate = $date
 
-                $fullVulnMatch = [regex]::Match($xmlRaw, "<Vulnerability[^>]*CVE\s*=\s*\"$cve\"[^>]*>.*?</Vulnerability>", "Singleline")
+                $cveEscaped = [Regex]::Escape($cve)
+                $fullVulnPattern = "<Vulnerability[^>]*CVE\s*=\s*\"$cveEscaped\"[^>]*>.*?</Vulnerability>"
+                $fullVulnMatch = [regex]::Match($xmlRaw, $fullVulnPattern, [System.Text.RegularExpressions.RegexOptions]::Singleline)
                 if ($fullVulnMatch.Success) {
                     $vulnText = $fullVulnMatch.Value
                     $severityMatch = [regex]::Match($vulnText, "<cvss:BaseScore>([^<]+)</cvss:BaseScore>")
                     if ($severityMatch.Success) { $severity = $severityMatch.Groups[1].Value }
 
-                    $exploitMatch = [regex]::Match($vulnText, "<Threat[^>]+Type=\"Exploit Status\"[^>]*>.*?<Description>(.*?)</Description>", "Singleline")
+                    $exploitMatch = [regex]::Match($vulnText, "<Threat[^>]+Type=\"Exploit Status\"[^>]*>.*?<Description>(.*?)</Description>", [System.Text.RegularExpressions.RegexOptions]::Singleline)
                     if ($exploitMatch.Success) { $exploitStatus = $exploitMatch.Groups[1].Value }
 
-                    $publishedMatch = [regex]::Match($vulnText, "<Revision[^>]*Number=\"1.0\"[^>]*>.*?<Date>(.*?)</Date>", "Singleline")
+                    $publishedMatch = [regex]::Match($vulnText, "<Revision[^>]*Number=\"1.0\"[^>]*>.*?<Date>(.*?)</Date>", [System.Text.RegularExpressions.RegexOptions]::Singleline)
                     if ($publishedMatch.Success) { $publishedDate = $publishedMatch.Groups[1].Value }
                 }
 
@@ -101,7 +103,6 @@ if (-not $cvrf.cvrfdoc -and $fallbackEntries.Count -gt 0) {
 
 Write-Host "Resilient parsing step complete."
 "Parsing completed at $(Get-Date)" | Out-File -FilePath $debugLog -Append
-
 $doc = $cvrf.cvrfdoc
 
 # Build dynamic OS list, excluding unwanted products

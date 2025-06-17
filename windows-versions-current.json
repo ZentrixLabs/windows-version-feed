@@ -47,5 +47,12 @@
     "build": "20348.3807",
     "latestKB": "KB5060526",
     "releaseDate": "2025-06-10"
+  },
+  {
+    "os": "Windows Server 2025",
+    "version": "2025",
+    "build": "26100.4349",
+    "latestKB": "KB5060842",
+    "releaseDate": "2025-06-10"
   }
 ]

@@ -25,6 +25,14 @@
         "fixedBuild": "20348.3807",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "8.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -52,6 +60,14 @@
         "version": "2022",
         "kb": "KB5058385",
         "fixedBuild": "20348.3692",
+        "severity": "8.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5058411",
+        "fixedBuild": "26100.4061",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -115,6 +131,14 @@
         "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -174,6 +198,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "7.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
@@ -237,6 +269,14 @@
         "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
     ]
   },
@@ -296,6 +336,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "6.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -420,6 +468,14 @@
         "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
     ]
   },
@@ -479,6 +535,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -542,6 +606,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
     ]
   },
@@ -601,6 +673,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "7.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "7.3",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -664,6 +744,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -723,6 +811,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -786,6 +882,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -845,6 +949,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -908,6 +1020,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
     ]
   },
@@ -967,6 +1087,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1030,6 +1158,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
     ]
   },
@@ -1081,6 +1217,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1144,6 +1288,14 @@
         "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "8.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
     ]
   },
@@ -1203,6 +1355,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1266,6 +1426,14 @@
         "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "8.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
     ]
   },
@@ -1325,6 +1493,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "8.4",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "8.4",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1388,6 +1564,14 @@
         "fixedBuild": "20348.3807",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -1447,6 +1631,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.4",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.4",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1510,6 +1702,14 @@
         "fixedBuild": "20348.3692",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5058411",
+        "fixedBuild": "26100.4061",
+        "severity": "7.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -1539,6 +1739,14 @@
         "fixedBuild": "20348.3807",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "8.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
     ]
   },
@@ -1558,6 +1766,14 @@
         "version": "23H2",
         "kb": "KB5058405",
         "fixedBuild": "22621.5335",
+        "severity": "4.4",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5058411",
+        "fixedBuild": "26100.4061",
         "severity": "4.4",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1621,6 +1837,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -1680,6 +1904,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1743,6 +1975,14 @@
         "fixedBuild": "20348.3807",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -1772,6 +2012,14 @@
         "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -1799,6 +2047,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
@@ -1852,6 +2108,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -1915,6 +2179,14 @@
         "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "8.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected;DOS:N/A"
       }
     ]
   },
@@ -1974,6 +2246,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
       }
@@ -2037,6 +2317,14 @@
         "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -2098,6 +2386,14 @@
         "fixedBuild": "20348.3807",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "6.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -2127,6 +2423,27 @@
         "fixedBuild": "20348.3807",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely;DOS:N/A"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2025-33069",
+    "patches": [
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "5.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -2186,6 +2503,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "8.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A"
       }
@@ -2249,6 +2574,14 @@
         "fixedBuild": "20348.3807",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
+        "severity": "8.8",
+        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }
     ]
   },
@@ -2308,6 +2641,14 @@
         "version": "2022",
         "kb": "KB5060526",
         "fixedBuild": "20348.3807",
+        "severity": "6.7",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5060842",
+        "fixedBuild": "26100.4349",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
       }

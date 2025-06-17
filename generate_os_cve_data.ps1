@@ -14,12 +14,8 @@ Write-Host "Debug log: $debugLog"
 # Try to fetch CVRF data
 try {
     Write-Host "Attempting to fetch: https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
-    $response = Invoke-WebRequest -Uri "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month" -ErrorAction Stop
-    $xmlRaw = $response.Content
-    "Successfully fetched CVRF XML data for $month" | Out-File -FilePath $debugLog -Append
-    [xml]$cvrfXml = $xmlRaw
-    $cvrf = $cvrfXml
-    "Successfully parsed CVRF XML content" | Out-File -FilePath $debugLog -Append
+    $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month" -ErrorAction Stop
+    "Successfully fetched CVRF data for $month" | Out-File -FilePath $debugLog -Append
 }
 catch {
     if ($_.Exception.Response.StatusCode.value__ -eq 404) {
@@ -29,79 +25,13 @@ catch {
         Write-Warning "Current month not found. Falling back to: $month"
         Write-Host "Fallback URL: https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month"
         "404 for $month, falling back to $month" | Out-File -FilePath $debugLog -Append
-        $response = Invoke-WebRequest -Uri "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month" -ErrorAction Stop
-        $xmlRaw = $response.Content
-        try {
-            [xml]$cvrfXml = $xmlRaw
-            $cvrf = $cvrfXml
-            "Successfully parsed fallback CVRF XML" | Out-File -FilePath $debugLog -Append
-        } catch {
-            Write-Warning "Fallback parse failed. Using regex-based recovery."
-        }
-    } else {
+        $cvrf = Invoke-RestMethod "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/$month" -ErrorAction Stop
+        "Successfully fetched CVRF data for $month" | Out-File -FilePath $debugLog -Append
+    }
+    else {
         "Error fetching CVRF data: $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
         throw
     }
-}
-
-# If XML parsing failed, fallback to regex recovery
-$fallbackEntries = @()
-if (-not $cvrf.cvrfdoc) {
-    Write-Warning "Using regex fallback parser."
-    "Malformed XML, entering regex fallback mode" | Out-File $debugLog -Append
-    $kbBlocks = Select-String -InputObject $xmlRaw -Pattern '<Remediation[^>]*>.*?</Remediation>' -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Value }
-
-    foreach ($block in $kbBlocks) {
-        $kb = [regex]::Match($block, '<Description>(KB\d+)</Description>').Groups[1].Value
-        $fixedBuild = [regex]::Match($block, '<FixedBuild>([^<]+)</FixedBuild>').Groups[1].Value
-        $productIds = [regex]::Matches($block, '<ProductID>([^<]+)</ProductID>') | ForEach-Object { $_.Groups[1].Value }
-        $vulnBlock = ($xmlRaw -split '</Remediation>') | Where-Object { $_ -like "*$kb*" } | Select-String -Pattern '<Vulnerability[^>]*CVE="([^"]+)' | ForEach-Object { $_.Matches[0].Groups[1].Value }
-
-        foreach ($cve in $vulnBlock) {
-            foreach ($pid in $productIds) {
-                $productName = "Unknown"
-                $severity = 'N/A (fallback)'
-                $exploitStatus = 'N/A (fallback)'
-                $publishedDate = $date
-
-                $cveEscaped = [Regex]::Escape($cve)
-                $fullVulnPattern = "<Vulnerability[^>]*CVE=\"$cveEscaped\"[^>]*>.*?</Vulnerability>"
-                $fullVulnMatch = [regex]::Match($xmlRaw, $fullVulnPattern, [System.Text.RegularExpressions.RegexOptions]::Singleline)
-                if ($fullVulnMatch.Success) {
-                    $vulnText = $fullVulnMatch.Value
-                    $severityMatch = [regex]::Match($vulnText, "<cvss:BaseScore>([^<]+)</cvss:BaseScore>")
-                    if ($severityMatch.Success) { $severity = $severityMatch.Groups[1].Value }
-
-                    $exploitMatch = [regex]::Match($vulnText, "<Threat[^>]+Type=\"Exploit Status\"[^>]*>.*?<Description>(.*?)</Description>", [System.Text.RegularExpressions.RegexOptions]::Singleline)
-                    if ($exploitMatch.Success) { $exploitStatus = $exploitMatch.Groups[1].Value }
-
-                    $publishedMatch = [regex]::Match($vulnText, "<Revision[^>]*Number=\"1.0\"[^>]*>.*?<Date>(.*?)</Date>", [System.Text.RegularExpressions.RegexOptions]::Singleline)
-                    if ($publishedMatch.Success) { $publishedDate = $publishedMatch.Groups[1].Value }
-                }
-
-                $fallbackEntries += [PSCustomObject]@{
-                    CVE           = $cve
-                    KB            = $kb
-                    ProductID     = $pid
-                    ProductName   = $productName
-                    FixedBuild    = $fixedBuild
-                    Severity      = $severity
-                    ExploitStatus = $exploitStatus
-                    PublishedDate = $publishedDate
-                }
-            }
-        }
-    }
-
-    $fallbackEntries | Export-Csv "fallback_kb_data.csv" -NoTypeInformation -Force
-    "Exported fallback KB data to fallback_kb_data.csv" | Out-File $debugLog -Append
-    $cvrf = @{ cvrfdoc = $null }  # Ensure structure exists to allow conditionals
-}
-
-# If needed, use fallback entries
-if (-not $cvrf.cvrfdoc -and $fallbackEntries.Count -gt 0) {
-    Write-Warning "Using fallback entries as primary CVE-KB map"
-    $kbCveMap = $fallbackEntries
 }
 
 $doc = $cvrf.cvrfdoc
@@ -109,7 +39,7 @@ $doc = $cvrf.cvrfdoc
 # Build dynamic OS list, excluding unwanted products
 $osProducts = $doc.ProductTree.FullProductName | Where-Object {
     $_.'#text' -match 'Windows Server|Windows 10|Windows 11' -and
-    $_.'#text' -notmatch 'Windows Server 2025|Preview|Insider|Windows HLK'
+    $_.'#text' -notmatch 'Preview|Insider|Windows HLK'
 } | Select-Object ProductID, @{Name='ProductName';Expression={$_.'#text'}}
 
 if (-not $osProducts) {
@@ -125,6 +55,7 @@ $buildRanges = @{
     'Windows Server 2016' = '10.0.14393.'
     'Windows Server 2019' = '10.0.17763.'
     'Windows Server 2022' = '10.0.20348.'
+    'Windows Server 2025' = '10.0.26100.'
     'Windows 10 Version' = '10.0.1[89]0..'
     'Windows 11 Version' = '10.0.2[23]...'
 }
@@ -147,7 +78,10 @@ foreach ($product in $osProducts) {
         $version = $win11Match.Groups[1].Value
     }
     elseif ($name -like '*Windows Server 2022*') {
-        $version = '2022' # Use '2022' instead of 'LTSC' for consistency
+        $version = '2022'
+    }
+    elseif ($name -like '*Windows Server 2025*') {
+        $version = '2025'
     }
 
     $versionMap[$product.ProductID] = @{ Name = $name; Version = $version }
@@ -188,6 +122,7 @@ foreach ($vuln in $cvrf.cvrfdoc.Vulnerability) {
                         '*Windows Server 2016*' { 'Windows Server 2016' }
                         '*Windows Server 2019*' { 'Windows Server 2019' }
                         '*Windows Server 2022*' { 'Windows Server 2022' }
+                        '*Windows Server 2025*' { 'Windows Server 2025' }
                         '*Windows 10*' { 'Windows 10 Version' }
                         '*Windows 11*' { 'Windows 11 Version' }
                         default { 'Unknown' }
@@ -242,6 +177,7 @@ $osGroups = $kbCveMap | Where-Object { $_.KB -ne 'Release Notes' } | Group-Objec
         '*Windows Server 2022*' { 
             if ($name -like '*23H2*') { 'Windows Server 2022 23H2' } else { 'Windows Server 2022' }
         }
+        '*Windows Server 2025*' { 'Windows Server 2025' }
         '*Windows 10*' { 
             if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
         }
@@ -256,7 +192,7 @@ foreach ($group in $osGroups) {
     $osName = $group.Name
     if ($osName -like '*HLK*') { continue }
 
-    $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
+    $latestEntry = $group.Group | Sort-Object -Property @{Expression={$_.PublishedDate};Descending=$true}, @{Expression={$_.FixedBuild};Descending=$true} | Select-Object -First 1
     if (-not $latestEntry) { continue }
     $name = $latestEntry.ProductName
     if (-not $name) { continue }
@@ -300,18 +236,20 @@ foreach ($cve in $uniqueCVEs) {
             '*Windows Server 2022*' { 
                 if ($name -like '*23H2*') { 'Windows Server 2022 23H2' } else { 'Windows Server 2022' }
             }
+            '*Windows Server 2025*' { 'Windows Server 2025' }
             '*Windows 10*' { 
                 if ($name -match 'Windows 10 Version ([\dA-Z]+)') { "Windows 10 Version $($matches[1])" } else { 'Windows 10' }
             }
             '*Windows 11*' { 
                 if ($name -match 'Windows 11 Version ([\dA-Z]+)') { "Windows 11 Version $($matches[1])" } else { 'Windows 11' }
-        }
+            }
             default { $name }
+        }
     }
 
     $cveMapping = [PSCustomObject]@{ cve = $cve; patches = @() }
     foreach ($group in $osGroups) {
-        $latestEntry = $group.Group | Sort-Object FixedBuild -Descending | Select-Object -First 1
+        $latestEntry = $group.Group | Sort-Object -Property @{Expression={$_.PublishedDate};Descending=$true}, @{Expression={$_.FixedBuild};Descending=$true} | Select-Object -First 1
         if (-not $latestEntry) { continue }
         $name = $latestEntry.ProductName
         if (-not $name) { continue }
@@ -342,8 +280,8 @@ if ($cveData.Count -gt 0) {
         "Successfully exported cveData to $monthlyCveFile" | Out-File -FilePath $debugLog -Append
     }
     catch {
-        Write-Warning "Failed to export $monthlyCveFile: $($_.Exception.Message)"
-        "Failed to export $monthlyCveFile: $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
+        Write-Warning "Failed to export $monthlyCveFile : $($_.Exception.Message)"
+        "Failed to export $monthlyCveFile : $($_.Exception.Message)" | Out-File -FilePath $debugLog -Append
         throw
     }
 }

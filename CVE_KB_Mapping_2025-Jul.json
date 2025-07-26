@@ -1473,7 +1473,7 @@
     ]
   },
   {
-    "cve": "CVE-2025-36357",
+    "cve": "CVE-2024-36357",
     "patches": [
       {
         "os": "Windows 10 Version 21H2",

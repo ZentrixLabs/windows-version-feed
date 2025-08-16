@@ -764,6 +764,22 @@
     "cve": "CVE-2025-50171",
     "patches": [
       {
+        "os": "Windows 11 Version 22H2",
+        "version": "22H2",
+        "kb": "KB5063875",
+        "fixedBuild": "22621.5768",
+        "severity": "9.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
+        "os": "Windows 11 Version 23H2",
+        "version": "23H2",
+        "kb": "KB5063875",
+        "fixedBuild": "22631.5768",
+        "severity": "9.1",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A"
+      },
+      {
         "os": "Windows Server 2025",
         "version": "2025",
         "kb": "KB5063878",

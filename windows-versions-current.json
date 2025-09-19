@@ -2,30 +2,30 @@
   {
     "os": "Windows 10 Version 21H2",
     "version": "21H2",
-    "build": "19044.6332",
+    "build": "19043.6332",
     "latestKB": "KB5065429",
-    "releaseDate": "2025-09-09"
+    "releaseDate": "2025-09-18"
   },
   {
     "os": "Windows 10 Version 22H2",
     "version": "22H2",
-    "build": "19045.6332",
+    "build": "19044.6332",
     "latestKB": "KB5065429",
-    "releaseDate": "2025-09-09"
+    "releaseDate": "2025-09-18"
   },
   {
     "os": "Windows 11 Version 22H2",
     "version": "22H2",
-    "build": "22621.5909",
+    "build": "22631.5909",
     "latestKB": "KB5065431",
-    "releaseDate": "2025-09-09"
+    "releaseDate": "2025-09-18"
   },
   {
     "os": "Windows 11 Version 23H2",
     "version": "23H2",
     "build": "22631.5909",
     "latestKB": "KB5065431",
-    "releaseDate": "2025-09-09"
+    "releaseDate": "2025-09-18"
   },
   {
     "os": "Windows Server 2016",
@@ -46,13 +46,13 @@
     "version": "2022",
     "build": "20348.4171",
     "latestKB": "KB5065432",
-    "releaseDate": "2025-09-09"
+    "releaseDate": "2025-09-18"
   },
   {
     "os": "Windows Server 2025",
     "version": "2025",
     "build": "26100.6584",
     "latestKB": "KB5065426",
-    "releaseDate": "2025-09-09"
+    "releaseDate": "2025-09-18"
   }
 ]

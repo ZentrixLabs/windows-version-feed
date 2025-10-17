@@ -2972,35 +2972,6 @@
     ]
   },
   {
-    "cve": "CVE-2025-59284",
-    "patches": [
-      {
-        "os": "Windows 11 Version 22H2",
-        "version": "22H2",
-        "kb": "KB5066793",
-        "fixedBuild": "22621.6060",
-        "severity": "3.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
-        "os": "Windows 11 Version 23H2",
-        "version": "23H2",
-        "kb": "KB5066793",
-        "fixedBuild": "22631.6060",
-        "severity": "3.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5066835",
-        "fixedBuild": "26100.6899",
-        "severity": "3.3",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      }
-    ]
-  },
-  {
     "cve": "CVE-2025-59290",
     "patches": [
       {
@@ -7052,6 +7023,64 @@
     ]
   },
   {
+    "cve": "CVE-2025-2884",
+    "patches": [
+      {
+        "os": "Windows 11 Version 22H2",
+        "version": "22H2",
+        "kb": "KB5066793",
+        "fixedBuild": "22621.6060",
+        "severity": "5.3",
+        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows 11 Version 23H2",
+        "version": "23H2",
+        "kb": "KB5066793",
+        "fixedBuild": "22631.6060",
+        "severity": "5.3",
+        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5066835",
+        "fixedBuild": "26100.6899",
+        "severity": "5.3",
+        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2025-59284",
+    "patches": [
+      {
+        "os": "Windows 11 Version 22H2",
+        "version": "22H2",
+        "kb": "KB5066793",
+        "fixedBuild": "22621.6060",
+        "severity": "3.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows 11 Version 23H2",
+        "version": "23H2",
+        "kb": "KB5066793",
+        "fixedBuild": "22631.6060",
+        "severity": "3.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5066835",
+        "fixedBuild": "26100.6899",
+        "severity": "3.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
     "cve": "CVE-2025-59214",
     "patches": [
       {
@@ -7117,35 +7146,6 @@
         "fixedBuild": "26100.6899",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
-      }
-    ]
-  },
-  {
-    "cve": "CVE-2025-2884",
-    "patches": [
-      {
-        "os": "Windows 11 Version 22H2",
-        "version": "22H2",
-        "kb": "KB5066793",
-        "fixedBuild": "22621.6060",
-        "severity": "5.3",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
-        "os": "Windows 11 Version 23H2",
-        "version": "23H2",
-        "kb": "KB5066793",
-        "fixedBuild": "22631.6060",
-        "severity": "5.3",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5066835",
-        "fixedBuild": "26100.6899",
-        "severity": "5.3",
-        "exploitStatus": "Publicly Disclosed:Yes;Exploited:No;Latest Software Release:Exploitation Less Likely"
       }
     ]
   }

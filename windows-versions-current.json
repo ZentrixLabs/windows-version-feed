@@ -28,31 +28,59 @@
     "releaseDate": "2025-10-14"
   },
   {
+    "os": "Windows Server 2012",
+    "version": "2012",
+    "build": "6.2.9200.25728",
+    "latestKB": "KB5070887",
+    "releaseDate": "2025-10-14"
+  },
+  {
+    "os": "Windows Server 2012 (Server Core installation)",
+    "version": "2012",
+    "build": "6.2.9200.25728",
+    "latestKB": "KB5070887",
+    "releaseDate": "2025-10-14"
+  },
+  {
+    "os": "Windows Server 2012 R2",
+    "version": "2012",
+    "build": "6.3.9600.22826",
+    "latestKB": "KB5070886",
+    "releaseDate": "2025-10-14"
+  },
+  {
+    "os": "Windows Server 2012 R2 (Server Core installation)",
+    "version": "2012",
+    "build": "6.3.9600.22826",
+    "latestKB": "KB5070886",
+    "releaseDate": "2025-10-14"
+  },
+  {
     "os": "Windows Server 2016",
     "version": "2016",
-    "build": "14393.8519",
+    "build": "14393.8524",
     "latestKB": "KB5066836",
     "releaseDate": "2025-10-14"
   },
   {
     "os": "Windows Server 2019",
     "version": "2019",
-    "build": "17763.7919",
-    "latestKB": "KB5066586",
+    "build": "17763.7922",
+    "latestKB": "KB5070883",
     "releaseDate": "2025-10-14"
   },
   {
     "os": "Windows Server 2022",
     "version": "2022",
-    "build": "20348.4294",
-    "latestKB": "KB5066782",
+    "build": "20348.4297",
+    "latestKB": "KB5070884",
     "releaseDate": "2025-10-14"
   },
   {
     "os": "Windows Server 2025",
     "version": "2025",
-    "build": "26100.6899",
-    "latestKB": "KB5066835",
+    "build": "26100.6905",
+    "latestKB": "KB5070881",
     "releaseDate": "2025-10-14"
   }
 ]

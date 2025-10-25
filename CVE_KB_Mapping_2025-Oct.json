@@ -6991,75 +6991,6 @@
     ]
   },
   {
-    "cve": "CVE-2025-59287",
-    "patches": [
-      {
-        "os": "Windows Server 2012",
-        "version": "2012",
-        "kb": "KB5070887",
-        "fixedBuild": "6.2.9200.25728",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2012 (Server Core installation)",
-        "version": "2012",
-        "kb": "KB5070887",
-        "fixedBuild": "6.2.9200.25728",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2012 R2",
-        "version": "2012",
-        "kb": "KB5070886",
-        "fixedBuild": "6.3.9600.22826",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2012 R2 (Server Core installation)",
-        "version": "2012",
-        "kb": "KB5070886",
-        "fixedBuild": "6.3.9600.22826",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2016",
-        "version": "2016",
-        "kb": "KB5066836",
-        "fixedBuild": "14393.8524",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2019",
-        "version": "2019",
-        "kb": "KB5070883",
-        "fixedBuild": "17763.7922",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2022",
-        "version": "2022",
-        "kb": "KB5070884",
-        "fixedBuild": "20348.4297",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5070881",
-        "fixedBuild": "26100.6905",
-        "severity": "9.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
-      }
-    ]
-  },
-  {
     "cve": "CVE-2025-59289",
     "patches": [
       {
@@ -7178,6 +7109,75 @@
         "fixedBuild": "26100.6899",
         "severity": "4.6",
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2025-59287",
+    "patches": [
+      {
+        "os": "Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5070887",
+        "fixedBuild": "6.2.9200.25728",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5070887",
+        "fixedBuild": "6.2.9200.25728",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5070886",
+        "fixedBuild": "6.3.9600.22826",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5070886",
+        "fixedBuild": "6.3.9600.22826",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2016",
+        "version": "2016",
+        "kb": "KB5070882",
+        "fixedBuild": "14393.8524",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2019",
+        "version": "2019",
+        "kb": "KB5070883",
+        "fixedBuild": "17763.7922",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2022",
+        "version": "2022",
+        "kb": "KB5070884",
+        "fixedBuild": "20348.4297",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5070881",
+        "fixedBuild": "26100.6905",
+        "severity": "9.8",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       }
     ]
   }

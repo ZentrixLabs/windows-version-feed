@@ -1814,7 +1814,7 @@
         "os": "Windows 11 Version 22H2",
         "version": "22H2",
         "kb": "KB5066793",
-        "fixedBuild": "22631.6060",
+        "fixedBuild": "22621.6060",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },

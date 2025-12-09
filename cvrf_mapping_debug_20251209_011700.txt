@@ -1,0 +1,3 @@
+Script started at 12/09/2025 01:17:00
+Successfully fetched CVRF data for 2025-Dec
+No OS products found in CVRF data

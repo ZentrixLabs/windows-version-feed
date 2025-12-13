@@ -1282,27 +1282,6 @@
     ]
   },
   {
-    "cve": "CVE-2025-62468",
-    "patches": [
-      {
-        "os": "Windows 11 Version 23H2",
-        "version": "23H2",
-        "kb": "KB5071417",
-        "fixedBuild": "22631.6345",
-        "severity": "4.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
-      },
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5072033",
-        "fixedBuild": "26100.7462",
-        "severity": "4.4",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
-      }
-    ]
-  },
-  {
     "cve": "CVE-2025-62474",
     "patches": [
       {
@@ -1882,6 +1861,27 @@
         "fixedBuild": "26100.7462",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2025-62468",
+    "patches": [
+      {
+        "os": "Windows 11 Version 23H2",
+        "version": "23H2",
+        "kb": "KB5071417",
+        "fixedBuild": "22631.6345",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
+      },
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5072033",
+        "fixedBuild": "26100.7462",
+        "severity": "5.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       }
     ]
   }

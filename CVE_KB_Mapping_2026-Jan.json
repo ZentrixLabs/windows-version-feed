@@ -675,8 +675,8 @@
       {
         "os": "Windows Server 2025",
         "version": "2025",
-        "kb": "KB5074109",
-        "fixedBuild": "26100.7623",
+        "kb": "KB5073379",
+        "fixedBuild": "26100.32230",
         "severity": "6.2",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       }
@@ -3372,8 +3372,8 @@
       {
         "os": "Windows Server 2025",
         "version": "2025",
-        "kb": "KB5074109",
-        "fixedBuild": "26100.7623",
+        "kb": "KB5073379",
+        "fixedBuild": "26100.32230",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       }
@@ -3385,8 +3385,8 @@
       {
         "os": "Windows Server 2025",
         "version": "2025",
-        "kb": "KB5074109",
-        "fixedBuild": "26100.7623",
+        "kb": "KB5073379",
+        "fixedBuild": "26100.32230",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       }
@@ -3507,8 +3507,8 @@
       {
         "os": "Windows Server 2025",
         "version": "2025",
-        "kb": "KB5074109",
-        "fixedBuild": "26100.7623",
+        "kb": "KB5073379",
+        "fixedBuild": "26100.32230",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       }

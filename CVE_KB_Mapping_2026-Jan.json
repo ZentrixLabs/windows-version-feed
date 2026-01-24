@@ -265,8 +265,8 @@
       {
         "os": "Windows Server 2025",
         "version": "2025",
-        "kb": "KB5074109",
-        "fixedBuild": "26100.7623",
+        "kb": "KB5073379",
+        "fixedBuild": "26100.32230",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected"
       }

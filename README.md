@@ -31,6 +31,18 @@ For the latest data, always use:
 
 For historical reference, archived files are available for previous months.
 
+### Quick Start
+
+Fetch latest Windows build data:
+curl -L https://raw.githubusercontent.com/ZentrixLabs/windows-version-feed/main/windows-versions-current.json
+
+Fetch latest CVE → KB mappings:
+curl -L https://raw.githubusercontent.com/ZentrixLabs/windows-version-feed/main/CVE_KB_Mapping_current.json
+
+Notes:
+- Dates are ISO 8601
+- Builds and KBs reflect the latest available monthly release data
+
 ## Automation
 
 This repository uses a GitHub Actions workflow to update the JSON files:

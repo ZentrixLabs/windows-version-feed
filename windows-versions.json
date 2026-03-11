@@ -2,50 +2,50 @@
   {
     "os": "Windows 10 Version 21H2",
     "version": "21H2",
-    "build": "19044.6937",
-    "latestKB": "KB5075912",
-    "releaseDate": "2026-02-10"
+    "build": "19044.7058",
+    "latestKB": "KB5078885",
+    "releaseDate": "2026-03-10"
   },
   {
     "os": "Windows 10 Version 22H2",
     "version": "22H2",
-    "build": "19045.6937",
-    "latestKB": "KB5075912",
-    "releaseDate": "2026-02-10"
+    "build": "19045.7058",
+    "latestKB": "KB5078885",
+    "releaseDate": "2026-03-10"
   },
   {
     "os": "Windows 11 Version 23H2",
     "version": "23H2",
-    "build": "22631.6649",
-    "latestKB": "KB5075941",
-    "releaseDate": "2026-02-10"
+    "build": "22631.6783",
+    "latestKB": "KB5078883",
+    "releaseDate": "2026-03-10"
   },
   {
     "os": "Windows Server 2016",
     "version": "2016",
-    "build": "14393.8868",
-    "latestKB": "KB5075999",
-    "releaseDate": "2026-02-10"
+    "build": "14393.8957",
+    "latestKB": "KB5078938",
+    "releaseDate": "2026-03-10"
   },
   {
     "os": "Windows Server 2019",
     "version": "2019",
-    "build": "17763.8389",
-    "latestKB": "KB5075904",
-    "releaseDate": "2026-02-10"
+    "build": "17763.8511",
+    "latestKB": "KB5078752",
+    "releaseDate": "2026-03-10"
   },
   {
     "os": "Windows Server 2022",
     "version": "2022",
-    "build": "20348.4773",
-    "latestKB": "KB5075906",
-    "releaseDate": "2026-02-10"
+    "build": "20348.4893",
+    "latestKB": "KB5078766",
+    "releaseDate": "2026-03-10"
   },
   {
     "os": "Windows Server 2025",
     "version": "2025",
-    "build": "26100.32370",
-    "latestKB": "KB5075899",
-    "releaseDate": "2026-02-10"
+    "build": "26100.32522",
+    "latestKB": "KB5078740",
+    "releaseDate": "2026-03-10"
   }
 ]

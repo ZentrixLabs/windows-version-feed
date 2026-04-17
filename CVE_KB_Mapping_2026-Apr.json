@@ -3099,19 +3099,6 @@
     ]
   },
   {
-    "cve": "CVE-2026-32223",
-    "patches": [
-      {
-        "os": "Windows Server 2025",
-        "version": "2025",
-        "kb": "KB5082063",
-        "fixedBuild": "26100.32690",
-        "severity": "6.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      }
-    ]
-  },
-  {
     "cve": "CVE-2026-32226",
     "patches": [
       {
@@ -6980,6 +6967,19 @@
         "kb": "KB5082404",
         "fixedBuild": "4.8.4801.0",
         "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2026-32223",
+    "patches": [
+      {
+        "os": "Windows Server 2025",
+        "version": "2025",
+        "kb": "KB5082063",
+        "fixedBuild": "26100.32690",
+        "severity": "6.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       }
     ]

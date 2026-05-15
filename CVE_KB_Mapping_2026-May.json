@@ -1431,6 +1431,43 @@
     ]
   },
   {
+    "cve": "CVE-2026-35433",
+    "patches": [
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5087048",
+        "fixedBuild": "4.8.9334.0 and 4.8.4802.0",
+        "severity": "7.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5087049",
+        "fixedBuild": "4.8.9334.0 and 4.8.4802.0",
+        "severity": "7.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5087067",
+        "fixedBuild": "4.8.9334.0 and 4.8.4802.0",
+        "severity": "7.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5087063",
+        "fixedBuild": "4.8.9334.0 and 4.8.4802.0",
+        "severity": "7.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      }
+    ]
+  },
+  {
     "cve": "CVE-2026-40377",
     "patches": [
       {

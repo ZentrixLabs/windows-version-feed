@@ -3,84 +3,84 @@
     "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
     "version": "2012",
     "build": "2.0.50727.8983 & 3.0.30729.8978",
-    "latestKB": "KB5087048",
+    "latestKB": "KB5100984",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
     "version": "2012",
     "build": "2.0.50727.8983 & 3.0.30729.8978",
-    "latestKB": "KB5087048",
+    "latestKB": "KB5100984",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
     "version": "2012",
     "build": "2.0.50727.8983 & 3.0.30729.8978",
-    "latestKB": "KB5087049",
+    "latestKB": "KB5100985",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
     "version": "2012",
     "build": "2.0.50727.8983 & 3.0.30729.8978",
-    "latestKB": "KB5087049",
+    "latestKB": "KB5100985",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
     "version": "2012",
     "build": "4.7.4143.0",
-    "latestKB": "KB5087062",
+    "latestKB": "KB5100990",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
     "version": "2012",
     "build": "4.7.4143.0",
-    "latestKB": "KB5087062",
+    "latestKB": "KB5100990",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
     "version": "2012",
     "build": "4.7.4143.0",
-    "latestKB": "KB5087063",
+    "latestKB": "KB5100991",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
     "version": "2012",
     "build": "4.7.4143.0",
-    "latestKB": "KB5087063",
+    "latestKB": "KB5100991",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
     "version": "2012",
     "build": "4.8.4803.0",
-    "latestKB": "KB5087067",
+    "latestKB": "KB5101009",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
     "version": "2012",
     "build": "4.8.4803.0",
-    "latestKB": "KB5087067",
+    "latestKB": "KB5101009",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
     "version": "2012",
     "build": "4.8.4803.0",
-    "latestKB": "KB5087069",
+    "latestKB": "KB5101011",
     "releaseDate": "2026-07-14"
   },
   {
     "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
     "version": "2012",
     "build": "4.8.4803.0",
-    "latestKB": "KB5087069",
+    "latestKB": "KB5101011",
     "releaseDate": "2026-07-14"
   },
   {

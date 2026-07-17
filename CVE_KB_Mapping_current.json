@@ -3105,6 +3105,208 @@
     ]
   },
   {
+    "cve": "CVE-2026-50652",
+    "patches": [
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2026-50653",
+    "patches": [
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
     "cve": "CVE-2026-33842",
     "patches": [
       {
@@ -6301,6 +6503,102 @@
     "cve": "CVE-2026-50304",
     "patches": [
       {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5099535",
@@ -6795,6 +7093,102 @@
   {
     "cve": "CVE-2026-50368",
     "patches": [
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
+      },
       {
         "os": "Windows Server 2016",
         "version": "2016",
@@ -7608,6 +8002,102 @@
     "cve": "CVE-2026-50324",
     "patches": [
       {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "5.9",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
         "os": "Windows Server 2016",
         "version": "2016",
         "kb": "KB5099535",
@@ -8273,6 +8763,102 @@
   {
     "cve": "CVE-2026-50355",
     "patches": [
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
       {
         "os": "Windows Server 2016",
         "version": "2016",
@@ -11328,6 +11914,102 @@
     "cve": "CVE-2026-50411",
     "patches": [
       {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
         "kb": "KB5099539",
@@ -13413,6 +14095,102 @@
   {
     "cve": "CVE-2026-50647",
     "patches": [
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100984",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100985",
+        "fixedBuild": "2.0.50727.8983 & 3.0.30729.8978",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100990",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5100991",
+        "fixedBuild": "4.7.4143.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101009",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2 (Server Core installation)",
+        "version": "2012",
+        "kb": "KB5101011",
+        "fixedBuild": "4.8.4803.0",
+        "severity": "7.5",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
       {
         "os": "Windows 10 Version 21H2",
         "version": "21H2",
@@ -18160,6 +18938,27 @@
         "kb": "KB5099536",
         "fixedBuild": "26100.33158",
         "severity": "8.3",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
+    "cve": "CVE-2026-58598",
+    "patches": [
+      {
+        "os": "Windows 10 Version 21H2",
+        "version": "21H2",
+        "kb": "KB5099539",
+        "fixedBuild": "19044.7548",
+        "severity": "7.0",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows 10 Version 22H2",
+        "version": "22H2",
+        "kb": "KB5099539",
+        "fixedBuild": "19045.7548",
+        "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       }
     ]

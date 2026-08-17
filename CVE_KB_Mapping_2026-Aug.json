@@ -38,7 +38,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -91,7 +91,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -152,7 +152,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -213,7 +213,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -274,7 +274,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -327,7 +327,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.9",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -388,7 +388,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -449,7 +449,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -510,7 +510,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.6",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -571,7 +571,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -632,7 +632,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -693,7 +693,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -754,7 +754,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -815,7 +815,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -876,7 +876,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -937,7 +937,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -990,7 +990,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1051,7 +1051,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1112,7 +1112,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -1186,7 +1186,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -1247,7 +1247,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "4.6",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1300,7 +1300,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1361,7 +1361,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1414,7 +1414,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1475,7 +1475,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1536,7 +1536,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1597,7 +1597,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1658,7 +1658,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -1732,7 +1732,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1793,7 +1793,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -1854,7 +1854,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1915,7 +1915,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -1976,7 +1976,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2055,7 +2055,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -2116,7 +2116,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2198,7 +2198,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2259,7 +2259,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -2365,7 +2365,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2418,7 +2418,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2479,7 +2479,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2532,7 +2532,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -2593,7 +2593,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -2630,7 +2630,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -2667,7 +2667,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -2704,7 +2704,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -2765,7 +2765,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2839,7 +2839,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2900,7 +2900,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -2961,7 +2961,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3022,7 +3022,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3083,7 +3083,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3144,7 +3144,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3205,7 +3205,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3266,7 +3266,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -3332,7 +3332,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3369,7 +3369,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3406,7 +3406,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3467,7 +3467,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3528,7 +3528,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3581,7 +3581,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3634,7 +3634,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -3695,7 +3695,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3756,7 +3756,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -3830,7 +3830,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3891,7 +3891,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -3952,7 +3952,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -4013,7 +4013,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4087,7 +4087,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -4148,7 +4148,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -4185,7 +4185,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -4267,7 +4267,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -4328,7 +4328,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4389,7 +4389,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4426,7 +4426,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4516,7 +4516,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4569,7 +4569,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4606,7 +4606,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4667,7 +4667,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4704,7 +4704,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4765,7 +4765,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4826,7 +4826,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4863,7 +4863,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "9.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4924,7 +4924,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -4985,7 +4985,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5038,7 +5038,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5075,7 +5075,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "9.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -5136,7 +5136,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5197,7 +5197,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -5258,7 +5258,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5319,7 +5319,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5409,7 +5409,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5483,7 +5483,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -5544,7 +5544,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5581,7 +5581,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -5642,7 +5642,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5724,7 +5724,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5785,7 +5785,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -5822,7 +5822,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.9",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -5883,7 +5883,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:Yes;Latest Software Release:Exploitation Detected"
       },
@@ -5944,7 +5944,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -6005,7 +6005,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -6066,7 +6066,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6127,7 +6127,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6201,7 +6201,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -6262,7 +6262,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6323,7 +6323,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6384,7 +6384,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6437,7 +6437,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6490,7 +6490,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.9",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6551,7 +6551,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6612,7 +6612,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6718,7 +6718,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.6",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6779,7 +6779,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -6840,7 +6840,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -6975,7 +6975,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7036,7 +7036,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7102,7 +7102,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -7163,7 +7163,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -7200,7 +7200,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.6",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -7261,7 +7261,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7322,7 +7322,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7383,7 +7383,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7478,7 +7478,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -7539,7 +7539,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7600,7 +7600,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7674,7 +7674,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7735,7 +7735,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7796,7 +7796,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7833,7 +7833,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -7870,7 +7870,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -7931,7 +7931,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -7992,7 +7992,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -8053,7 +8053,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8114,7 +8114,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -8175,7 +8175,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8236,7 +8236,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -8297,7 +8297,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -8358,7 +8358,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -8419,7 +8419,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8480,7 +8480,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8562,7 +8562,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.3",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8623,7 +8623,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -8742,7 +8742,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8803,7 +8803,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -8856,7 +8856,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -8893,7 +8893,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -8954,7 +8954,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9015,7 +9015,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9052,7 +9052,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9089,7 +9089,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9171,7 +9171,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -9232,7 +9232,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -9293,7 +9293,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -9354,7 +9354,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -9436,7 +9436,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9497,7 +9497,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -9534,7 +9534,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9571,7 +9571,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9637,7 +9637,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9674,7 +9674,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -9748,7 +9748,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -9955,7 +9955,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10016,7 +10016,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10077,7 +10077,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10138,7 +10138,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10199,7 +10199,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10281,7 +10281,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10318,7 +10318,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10371,7 +10371,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10432,7 +10432,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10493,7 +10493,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely"
       },
@@ -10596,7 +10596,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "7.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10633,7 +10633,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "9.8",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10694,7 +10694,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10755,7 +10755,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10816,7 +10816,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10877,7 +10877,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -10938,7 +10938,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "6.7",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -10975,7 +10975,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Unlikely"
       },
@@ -11105,7 +11105,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -11248,7 +11248,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "8.1",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },
@@ -11309,7 +11309,7 @@
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",
-        "fixedBuild": "17763.9115",
+        "fixedBuild": "17763.9121",
         "severity": "5.5",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
       },

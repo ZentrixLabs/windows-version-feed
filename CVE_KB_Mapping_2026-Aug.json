@@ -4643,7 +4643,7 @@
         "os": "Windows 11 Version 23H2",
         "version": "23H2",
         "kb": "KB5122880",
-        "fixedBuild": "22621.7566",
+        "fixedBuild": "22621.7567",
         "severity": "7.0",
         "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:N/A"
       },

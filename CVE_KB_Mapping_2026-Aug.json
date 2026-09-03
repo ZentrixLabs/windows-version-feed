@@ -7885,30 +7885,6 @@
     "cve": "CVE-2026-62817",
     "patches": [
       {
-        "os": "Windows 10 Version 21H2",
-        "version": "21H2",
-        "kb": "KB5120249",
-        "fixedBuild": "19044.7663",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
-        "os": "Windows 10 Version 22H2",
-        "version": "22H2",
-        "kb": "KB5120249",
-        "fixedBuild": "19045.7663",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
-        "os": "Windows 11 Version 23H2",
-        "version": "23H2",
-        "kb": "KB5120240",
-        "fixedBuild": "22631.7517",
-        "severity": "8.8",
-        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
-      },
-      {
         "os": "Windows Server 2019",
         "version": "2019",
         "kb": "KB5120238",

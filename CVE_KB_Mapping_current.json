@@ -27013,6 +27013,35 @@
     ]
   },
   {
+    "cve": "CVE-2026-71347",
+    "patches": [
+      {
+        "os": "Windows 10 Version 21H2",
+        "version": "21H2",
+        "kb": "KB5126657",
+        "fixedBuild": "19044.7807",
+        "severity": "6.4",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows 10 Version 22H2",
+        "version": "22H2",
+        "kb": "KB5126657",
+        "fixedBuild": "19044.7807",
+        "severity": "6.4",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      },
+      {
+        "os": "Windows 11 Version 23H2",
+        "version": "23H2",
+        "kb": "KB5126653",
+        "fixedBuild": "22631.7652",
+        "severity": "6.4",
+        "exploitStatus": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely"
+      }
+    ]
+  },
+  {
     "cve": "CVE-2026-72934",
     "patches": [
       {

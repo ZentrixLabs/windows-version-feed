@@ -1,121 +1,79 @@
 [
   {
-    "os": "Microsoft .NET Framework 3.5 on Windows Server 2012",
-    "version": "2012",
-    "build": "2.0.50727.8987 AND 3.0.30729.8982",
-    "latestKB": "KB5127660",
-    "releaseDate": "2026-10-13"
-  },
-  {
-    "os": "Microsoft .NET Framework 3.5 on Windows Server 2012 R2",
-    "version": "2012",
-    "build": "2.0.50727.8987 AND 3.0.30729.8982",
-    "latestKB": "KB5127664",
-    "releaseDate": "2026-10-13"
-  },
-  {
-    "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012",
-    "version": "2012",
-    "build": "4.7.4150.0",
-    "latestKB": "KB5127667",
-    "releaseDate": "2026-10-13"
-  },
-  {
-    "os": "Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2012 R2",
-    "version": "2012",
-    "build": "4.7.4150.0",
-    "latestKB": "KB5127668",
-    "releaseDate": "2026-10-13"
-  },
-  {
-    "os": "Microsoft .NET Framework 4.8 on Windows Server 2012",
-    "version": "2012",
-    "build": "4.8.4811.0",
-    "latestKB": "KB5127686",
-    "releaseDate": "2026-10-13"
-  },
-  {
-    "os": "Microsoft .NET Framework 4.8 on Windows Server 2012 R2",
-    "version": "2012",
-    "build": "4.8.4811.0",
-    "latestKB": "KB5127688",
-    "releaseDate": "2026-10-13"
-  },
-  {
     "os": "Windows 10 Version 21H2",
     "version": "21H2",
-    "build": "19044.7807",
-    "latestKB": "KB5126657",
-    "releaseDate": "2026-10-13"
+    "build": "19044.7846",
+    "latestKB": "KB5131096",
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows 10 Version 22H2",
     "version": "22H2",
-    "build": "19045.7807",
-    "latestKB": "KB5126657",
-    "releaseDate": "2026-10-13"
+    "build": "19045.7846",
+    "latestKB": "KB5131096",
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows 11 Version 23H2",
     "version": "23H2",
-    "build": "22631.7652",
-    "latestKB": "KB5126653",
-    "releaseDate": "2026-10-13"
+    "build": "22631.7711",
+    "latestKB": "KB5131087",
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2012",
     "version": "2012",
     "build": "6.2.9200.26434",
     "latestKB": "KB5126835",
-    "releaseDate": "2026-10-13"
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2012 (Server Core installation)",
     "version": "2012",
     "build": "6.2.9200.26434",
     "latestKB": "KB5126835",
-    "releaseDate": "2026-10-13"
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2012 R2",
     "version": "2012",
     "build": "6.3.9600.23470",
     "latestKB": "KB5126836",
-    "releaseDate": "2026-10-13"
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2012 R2 (Server Core installation)",
     "version": "2012",
     "build": "6.3.9600.23470",
     "latestKB": "KB5126836",
-    "releaseDate": "2026-10-13"
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2016",
     "version": "2016",
-    "build": "14393.9612",
-    "latestKB": "KB5126868",
-    "releaseDate": "2026-10-13"
+    "build": "14393.9688",
+    "latestKB": "KB5131291",
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2019",
     "version": "2019",
-    "build": "17763.9376",
-    "latestKB": "KB5126651",
-    "releaseDate": "2026-10-13"
+    "build": "17763.9487",
+    "latestKB": "KB5131085",
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2022",
     "version": "2022",
-    "build": "20348.5761",
-    "latestKB": "KB5126655",
-    "releaseDate": "2026-10-13"
+    "build": "20348.5870",
+    "latestKB": "KB5131090",
+    "releaseDate": "2026-11-10"
   },
   {
     "os": "Windows Server 2025",
     "version": "2025",
-    "build": "26100.33650",
-    "latestKB": "KB5126646",
-    "releaseDate": "2026-10-13"
+    "build": "26100.33822",
+    "latestKB": "KB5131080",
+    "releaseDate": "2026-11-10"
   }
 ]

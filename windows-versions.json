@@ -35,20 +35,6 @@
     "releaseDate": "2026-11-10"
   },
   {
-    "os": "Windows Server 2012 R2",
-    "version": "2012",
-    "build": "6.3.9600.23470",
-    "latestKB": "KB5126836",
-    "releaseDate": "2026-11-10"
-  },
-  {
-    "os": "Windows Server 2012 R2 (Server Core installation)",
-    "version": "2012",
-    "build": "6.3.9600.23470",
-    "latestKB": "KB5126836",
-    "releaseDate": "2026-11-10"
-  },
-  {
     "os": "Windows Server 2016",
     "version": "2016",
     "build": "14393.9688",
